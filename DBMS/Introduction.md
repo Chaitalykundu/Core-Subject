@@ -36,4 +36,4 @@
 
 &nbsp;
 
-<img alt="Database system" src="[../assets/1.PNG](https://github.com/Chaitalykundu/Core-Subject/blob/master/assets/1.PNG)">
+<img alt="Database system" src="https://github.com/Chaitalykundu/Core-Subject/blob/master/DBMS/assets/1.PNG">
