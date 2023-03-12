@@ -5,10 +5,6 @@
 * Tables contain records (rows) with data.
 
 
-&nbsp;
-
-* To create a database
-    > CREATE database database_name;
 N.B. : SQL keywords are NOT case sensitive
 
 &nbsp;
