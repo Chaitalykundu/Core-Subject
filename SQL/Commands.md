@@ -11,7 +11,7 @@
 || LOCK TABLE ||||
 
 
-
+&nbsp;
 
 ## Some of The Most Important SQL Commands
 
