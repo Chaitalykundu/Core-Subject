@@ -2,3 +2,6 @@
    > \l
 * Create database database_name
    > CREATE DATABASE database_name
+* To go to any database 
+   > \c database_name
+   
