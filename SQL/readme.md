@@ -1,4 +1,4 @@
 * To check available database
- > \l
+   > \l
 * Create database database_name
- > CREATE database database_name
+   > CREATE database database_name
