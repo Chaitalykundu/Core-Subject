@@ -1,3 +1,18 @@
+# SQL Commands
+
+| DDL | DML | DCL | DQL | TCL |
+| ----- | ------ | ------- | ------- | --- |
+| CREATE | INSERT | GRANT | SELECT | COMMIT |
+|DROP | UPDATE | REVOKE | | ROLLBACK | 
+|ALTER | DELETE | | | SAVEPOINT |
+|TRUNCATE| MERGE | | | SET TRANSACTION |
+|COMMENT| CALL | ||||
+|RENAME| EXPLAIN PLAN ||||
+|| LOCK TABLE ||||
+
+
+
+
 ## Some of The Most Important SQL Commands
 
 * SELECT - extracts data from a database
