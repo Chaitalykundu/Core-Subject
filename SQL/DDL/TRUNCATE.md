@@ -1,0 +1,12 @@
+# SQL TRUNCATE TABLE
+
+The **_TRUNCATE TABLE_** statement is used to delete the data inside a table, but not the table itself.
+
+- Syntax :
+
+  > TRUNCATE TABLE table_nam
+
+- Example :
+  ```
+  DROP TABLE Shippers;
+  ```
