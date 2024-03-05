@@ -1,3 +1,16 @@
+# Ovreview
+
+- Data
+- Information
+- Database
+- DBMS
+- DBM
+- DBS
+
+&nbsp;
+
+&nbsp;
+
 ## Data : (raw entity)
 
 - Data is the collection of a distinct small unit of info
@@ -36,4 +49,4 @@
 
 &nbsp;
 
-<img alt="Database system" src="https://github.com/Chaitalykundu/Core-Subject/blob/master/DBMS/assets/1.PNG">
+<img alt="Database system" src="./assets/1.PNG">
