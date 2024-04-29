@@ -1,3 +1,16 @@
+# Overview
+
+- What is Database
+- How to Create database
+- How to check Database list
+- How to go to particular database
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 # Database
 
 Database is a **collection of similar and organized data**
@@ -24,7 +37,7 @@ In SQL shell we can simply type `\l` to see the existent Database
 
 &nbsp;
 
-# To go to the database
+# Go to particular database
 
 To go to the database in SQL shell, we use `\c database_name`
 

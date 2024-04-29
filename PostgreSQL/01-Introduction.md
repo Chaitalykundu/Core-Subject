@@ -1,9 +1,12 @@
 # Overview
 
 - What is PostgreSQL
+- Features of PostgreSQL
+- PostgreSQL Supported programming languages
 - What is pgadmin
 - Difference between PostgreSQL and pgadmin
 - What are the other database engine
+- Connect to the Database
 
 &nbsp;
 
@@ -13,7 +16,7 @@
 
 # What is PostgreSQL
 
-PostgreSQL is  free open-source Object-Relational Database Management System.
+PostgreSQL is free open-source Object-Relational Database Management System.
 
 PostgreSQL is a back-end database for dynamic websites and web applications.
 
@@ -41,18 +44,19 @@ It is modern
 
 &nbsp;
 
-# Supported programming languages
+# PostgreSQL Supported programming languages
+
 PostgreSQL supports the most important programming languages:
 
-* Python
-* Java
-* C/C++
-* C#
-* Node.js
-* Go
-* Ruby
-* Perl
-* Tcl
+- Python
+- Java
+- C/C++
+- C#
+- Node.js
+- Go
+- Ruby
+- Perl
+- Tcl
 
 &nbsp;
 
@@ -60,12 +64,11 @@ PostgreSQL supports the most important programming languages:
 
 # What is pgadmin
 
-- pgadmin is a free and open source administration and development platform for managing PostgreSQL databases.
+- **pgadmin** is a free and open source administration and development platform for managing PostgreSQL databases.
 
 - It is widely used as a primary tool for PostgreSQL database administration.
 
 - It offers a range of features, including database object management (such as creating tables, views and indexes), querying and editing data, monitoring database activity and managing server setting.
-
 
 &nbsp;
 
@@ -95,8 +98,8 @@ PostgreSQL supports the most important programming languages:
 
 There are several ways to connect to the database, we will look at two ways in this tutorial:
 
-* SQL Shell (psql)
-* pgAdmin 4
+- SQL Shell (psql)
+- pgAdmin 4
 
 Both of them comes with the installation of PostgreSQL
 
@@ -106,7 +109,7 @@ Both of them comes with the installation of PostgreSQL
 
 # Connect to the Database using SQL shell
 
-###Steps :
+### Steps
 
 1. open pgadmin
 2. open sql shell
@@ -114,7 +117,7 @@ Both of them comes with the installation of PostgreSQL
 
 &nbsp;
 
-### Note: 
+### Note
 
 SQL Shell waits for the semicolon and executes all lines as one SQL statement.
 
@@ -125,6 +128,7 @@ A multiple lines SQL statement is not executed before we include a semicolon at 
 &nbsp;
 
 # Check the version
+
 ```sql
 SELECT version();
 ```
@@ -135,7 +139,7 @@ SELECT version();
 
 # Connect to the Database using pgadmin
 
-### Steps :
+### Steps
 
 1. Start pgAdmin4
 

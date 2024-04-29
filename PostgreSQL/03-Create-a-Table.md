@@ -1,3 +1,15 @@
+# Overview
+
+- How to Create a table (Syntax & Example)
+- Display all tables
+- Details of particular table
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 # Create a table
 
 ## Syntax
@@ -38,6 +50,7 @@ CREATE TABLE dept(
 &nbsp;
 
 # Display all tables
+
 To display all tables in the database we use `\\d` or `\\dt`
 
 &nbsp;
@@ -49,6 +62,7 @@ To display all tables in the database we use `\\d` or `\\dt`
 &nbsp;
 
 # Details of particular table
+
 To see the details of particular table in the database we use `\\d table_name`
 
 &nbsp;
@@ -58,4 +72,3 @@ To see the details of particular table in the database we use `\\d table_name`
 &nbsp;
 
 &nbsp;
-
