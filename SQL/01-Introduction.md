@@ -13,9 +13,9 @@
 
 &nbsp;
 
-## Database
+# Database
 
-Database is a **collection of data** in a format that can be easily accessed.
+Database is a **collection of similar and organized data** in a format that can be easily accessed.
 
 A software application used to manage our DataBase is called Database Management System (DBMS).
 
@@ -39,7 +39,7 @@ A software application used to manage our DataBase is called Database Management
 
 &nbsp;
 
-## What is SQL?
+# What is SQL?
 
 - SQL stands for **Structured Query Language**
 
@@ -64,16 +64,28 @@ SQL is used to perform CRUD operation
 
 ## What Can SQL do?
 
-- SQL can execute queries against a database
-- SQL can retrieve data from a database
-- SQL can insert records in a database
-- SQL can update records in a database
-- SQL can delete records from a database
-- SQL can create new databases
-- SQL can create new tables in a database
-- SQL can create stored procedures in a database
-- SQL can create views in a database
-- SQL can set permissions on tables, procedures, and views
+SQL can
+
+- **execute queries** against a database
+- **retrieve data** from a database
+- **insert records** in a database
+- **update records** in a database
+- **delete records** from a database
+- **create new databases**
+- **create new tables** in a database
+- **create stored procedures** in a database
+- **create views** in a database
+- **set permissions** on tables, procedures, and views
+
+&nbsp;
+
+&nbsp;
+
+## Features of SQL
+
+1. Manage data held in a relational database
+2. Easy to learn
+3. Very powerful
 
 &nbsp;
 
@@ -83,7 +95,7 @@ SQL is used to perform CRUD operation
 
 To build a web site that shows data from a database, you will need:
 
-- an RDBMS database program (i.e. MS Access, SQL Server, MySQL)
+- an RDBMS database program (i.e. MS Access, SQL Server, MySQL, pgadmin)
 
 - to use a server-side scripting language, like PHP or ASP
 - to use SQL to get the data you want
@@ -92,6 +104,14 @@ To build a web site that shows data from a database, you will need:
 &nbsp;
 
 &nbsp;
+
+## How data is stored
+
+In terms of
+
+- tables
+- rows
+- columns
 
 &nbsp;
 
