@@ -2,5 +2,5 @@
 
 * DBMS
 * SQL
-* PostgreSQL
+* PostgreSQL (Remaining - 43 part)
 * Snowflake

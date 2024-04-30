@@ -16,3 +16,4 @@
 | SELECT current_database();                     | to see the current database                               |
 | SELECT inet_server_addr(), inet_server_port(); | To show the IP address and port of the current connection |
 | \\i file_path                                  | to insert any dummy file                                  |
+|ORDER BY| To sort table|
