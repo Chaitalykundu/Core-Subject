@@ -1,0 +1,1 @@
+[50 days of SQL Challenge](https://codedamn.com/challenge/50-days-of-sql)
