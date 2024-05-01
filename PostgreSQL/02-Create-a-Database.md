@@ -19,8 +19,16 @@ Database is a **collection of similar and organized data**
 
 # Create database
 
+## Syntax
+
 ```sql
 CREATE DATABASE database_name;
+```
+
+## Example
+
+```sql
+CREATE DATABASE Company;
 ```
 
 <img src="./assets/Database/create-database.jpg">
