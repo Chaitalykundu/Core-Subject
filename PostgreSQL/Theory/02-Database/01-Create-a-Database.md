@@ -17,6 +17,8 @@ Database is a **collection of similar and organized data**
 
 &nbsp;
 
+&nbsp;
+
 # Create database
 
 ## Syntax
@@ -25,13 +27,17 @@ Database is a **collection of similar and organized data**
 CREATE DATABASE database_name;
 ```
 
+&nbsp;
+
 ## Example
 
 ```sql
 CREATE DATABASE Company;
 ```
 
-<img src="./assets/Database/create-database.jpg">
+<img src="../../assets/Database/create-database.jpg">
+
+&nbsp;
 
 &nbsp;
 
@@ -39,7 +45,13 @@ CREATE DATABASE Company;
 
 In SQL shell we can simply type `\l` to see the existent Database
 
-<img src="./assets/Database/list-of-database.jpg">
+## Syntax
+
+```sql
+\l
+```
+
+<img src="../../assets/Database/list-of-database.jpg">
 
 &nbsp;
 
@@ -49,9 +61,23 @@ In SQL shell we can simply type `\l` to see the existent Database
 
 To go to the database in SQL shell, we use `\c database_name`
 
-<img src="./assets/Database/go-to-particular-database.jpg">
+## Syntax
 
-Here `company` is database name.
+```sql
+\c database_name
+```
+
+&nbsp;
+
+## Example
+
+```sql
+\c company
+```
+
+<img src="../../assets/Database/go-to-particular-database.jpg">
+
+Here `company` is the database name.
 
 &nbsp;
 &nbsp;

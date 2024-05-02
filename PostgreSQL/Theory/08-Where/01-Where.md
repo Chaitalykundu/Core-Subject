@@ -3,8 +3,7 @@
 - how to use the PostgreSQL WHERE clause
 - Evaluation
 - Syntax
-- Find distinct values of one column
-- Find distinct values of multiple columns
+- Operators
 
 &nbsp;
 
@@ -30,7 +29,7 @@ Besides the SELECT statement, you can use the WHERE clause in the `UPDATE` and `
 
 # Evaluation
 
-PostgreSQL evaluates the WHERE clause after the FROM clause but before the SELECT and ORDER BY clause:
+PostgreSQL evaluates the `WHERE` clause after the `FROM` clause but before the `SELECT` and `ORDER BY` clause:
 
 > FROM > WHERE > SELECT > ORDER BY
 
@@ -51,6 +50,17 @@ ORDER BY
   sort_expression;
 ```
 
+&nbsp;
+
+&nbsp;
+
+# Example
+
+```sql
+SELECT * FROM details WHERE gender='Female' ORDER BY firstname;
+```
+
+<img src="../../assets/Where/equal.jpg">
 &nbsp;
 
 &nbsp;
@@ -80,58 +90,3 @@ To form the condition in the WHERE clause, you use comparison and logical operat
 
 &nbsp;
 
-# 1.  Using WHERE clause with the equal (=) operator example
-
-## Example
-
-```sql
-
-```
-
-&nbsp;
-
-&nbsp;
-
-## Syntax
-
-```sql
-
-```
-
-&nbsp;
-
-&nbsp;
-
-## Example
-
-```sql
-
-```
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-## Syntax
-
-```sql
-
-```
-
-&nbsp;
-
-&nbsp;
-
-## Example
-
-```sql
-
-```
-
-&nbsp;
-
-&nbsp;

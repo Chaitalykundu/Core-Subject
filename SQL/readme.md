@@ -4,4 +4,4 @@
   > CREATE DATABASE database_name
 
 * To go to any database
-  > \c
+  > \c databse_name
