@@ -60,6 +60,8 @@ ORDER BY
 SELECT * FROM details WHERE gender='Female' ORDER BY firstname;
 ```
 
+ORDER BY is optional is order clause.
+
 <img src="../../assets/Where/equal.jpg">
 &nbsp;
 

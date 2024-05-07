@@ -1,6 +1,6 @@
 # Overview
 
-- Using WHERE clause with the IN operator
+- Using WHERE clause with the BETWEEN operator
 - How can we express OR operator to In
 
 &nbsp;
@@ -12,6 +12,10 @@
 # Introduction
 
 If you want to find a value in a list of values, you can use the `IN` operator.
+
+&nbsp;
+
+&nbsp;
 
 # Syntax
 
