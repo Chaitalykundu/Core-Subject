@@ -1,3 +1,17 @@
+# Overview
+
+- Snowflake
+- About Snowflake
+- Snowflake's features include
+- The value of Cloud Data Platform
+- One platform, One copy of data, Many workload
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 # Snowflake
 
 Snowflake is a cloud data platform that offers data warehousing, data lakes, data engineering, data science, and more.
@@ -6,6 +20,7 @@ It's designed to be more flexible, faster, and easier to use than traditional da
 
 Snowflake's architecture is built for the cloud and uses a new SQL database engine instead of existing database or "big data" software platforms. It's built on Amazon Web Services or Microsoft Azure cloud infrastructure.
 
+Snowflake is **_Software as a Service (SaaS) == Data platform as a Cloud Service == Data Warehouse as a Cloud Service (DWaaS)_**
 &nbsp;
 
 &nbsp;
@@ -73,18 +88,15 @@ One platform - Snowflake
 One copy of data - Data
 Many workload - Data Wasehouse, Data lake, Data Engineering, Data Application, Data Science, Data Exchange
 
+- <u>**_Data Wasehouse_**</u> : Modernize data warehousing to deliver faster analytics at scale
+- <u>**_Data lake_**</u> : Simplify and accelarate your data lake with one platform for all the data
+- <u>**_Data Engineering_**</u> : Rethink transformation with rebust and integrated data pipelines
 
-- <u>***Data Wasehouse***</u> : Modernize data warehousing to deliver faster analytics at scale
-  
-- <u>***Data lake***</u> : Simplify and accelarate your data lake with one platform for all the data
-  
-- <u>***Data Engineering***</u> : Rethink transformation with rebust and integrated data pipelines
+- <u>**_Data Application_**</u> : Develop apps with faster and scalable analytics that delight customers
 
-- <u>***Data Application***</u> : Develop apps with faster and scalable analytics that delight customers
+- <u>**_Data Science_**</u> : Simplify and accelarate machine learning and artificial intelligence
 
-- <u>***Data Science***</u> : Simplify and accelarate machine learning and artificial intelligence
-
-- <u>***Data Exchange***</u> : Empower your eco-system with secure, governed access to all data
+- <u>**_Data Exchange_**</u> : Empower your eco-system with secure, governed access to all data
 
 &nbsp;
 
