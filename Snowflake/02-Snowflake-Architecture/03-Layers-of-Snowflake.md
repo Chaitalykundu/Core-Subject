@@ -1,9 +1,9 @@
 # Overview
 
-- Traditional Data Warehouse Architecture
--
--
--
+- Layers
+- Database Storage layer
+- Compute or Query Processing layer
+- Cloud Services layer
 
 &nbsp;
 
@@ -37,6 +37,10 @@ Snowflake manages all aspects of how this data is stored — the organization, f
 - Cloud data redundancy
 - Pay only for stored data
 
+&nbsp;
+
+&nbsp;
+
 # Compute or Query Processing layer
 
 - Also called query engine or virtual warehouse
@@ -44,8 +48,6 @@ Snowflake manages all aspects of how this data is stored — the organization, f
 - Scale up and down as needed (it is not inF)
 - Different size to serve different workloads
 
-&nbsp;
-&nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
