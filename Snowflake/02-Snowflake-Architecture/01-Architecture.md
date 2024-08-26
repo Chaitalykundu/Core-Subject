@@ -36,7 +36,9 @@ Snowflake is a true self-managed service, meaning:
 
 &nbsp;
 
-Snowflake runs completely on cloud infrastructure. All components of Snowflake’s service (other than optional command line clients, drivers, and connectors), run in public cloud infrastructures.
+Snowflake runs completely on cloud** infrastructure**. 
+
+All components of Snowflake’s service (other than optional command line clients, drivers, and connectors), run in **public** cloud infrastructures.
 
 Snowflake uses **virtual compute instances** for its compute needs and a storage service for persistent storage of data.
 
