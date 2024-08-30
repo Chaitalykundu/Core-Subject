@@ -19,7 +19,7 @@
 
 # Traditional Data Warehouse Architecture
 
-There are two types of Architecture
+There are **two** types of architecture
 
 - Shared Disk Architecture
 - Shared Nothing Architecture
@@ -37,7 +37,7 @@ There are two types of Architecture
 
 # Shared Disk Architecture
 
-Shared Disk Architecture is an architecture that is used in **distributed computing** in which the nodes or compute resources (BI dashboard, Developer's IDE, testing workload etc) share the same (single) disk devices but each node has its own private memory.
+Shared Disk Architecture is an architecture that is used in **distributed computing** in which the nodes or compute resources (BI dashboard, Developer's IDE, testing workload etc) **share the same (single) disk devices** but **each node has its own private memory**.
 
 The disks have active nodes which share memory in case of any failures.
 
@@ -55,7 +55,7 @@ In this architecture, the disks are accessible from all the cluster nodes. This 
 
 - each node has its own private memory
 
-- Single point of failure
+- Single point of failure as it has only one disk
 
 - Can't scale beyond one point
 
@@ -87,13 +87,19 @@ In this architecture, the disks are accessible from all the cluster nodes. This 
 
 - Slow down in the speed of current CPUs because of added more CPUs leads to the increased competition for memory access in network bandwidth.
 
+- Can't scale beyond one point
+
+- As it scale's up (vertical scaling), it becomes more and more expensive.
+
+- System becomes very slow as we onboard more and more ETL workloads
+
 &nbsp;
 
 &nbsp;
 
 # Shared nothing architecture
 
-Shared nothing architecture is an architecture that is used in distributed computing in which each node is independent and different nodes are interconnected by a network.
+Shared nothing architecture is an architecture that is used in distributed computing in which each node is independent and different **nodes are interconnected by a network**.
 
 The main motive of this architecture is to remove the contention among nodes.
 
@@ -113,9 +119,15 @@ The main motive of this architecture is to remove the contention among nodes.
 
 - The disks have individual nodes which cannot be shared.
 
+- No single point failure
+
 - It works effectively in a high volume and read-write environment.
 
 - It has cheaper hardware as compared to shared disk architecture.
+
+- Add more and more nodes, and it can scale horizontally, however compute and storage can't scale independently.
+
+- As it scale out, administrative cost increases.
 
 &nbsp;
 
@@ -124,7 +136,7 @@ The main motive of this architecture is to remove the contention among nodes.
 ## Advantages
 
 - Easy to scale
-- reduces single points of failure, makes upgrades easier, and avoids downtime
+- Reduces single points of failure, makes upgrades easier, and avoids downtime
 
 &nbsp;
 

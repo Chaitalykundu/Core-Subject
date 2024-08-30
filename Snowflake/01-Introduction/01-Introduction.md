@@ -3,8 +3,11 @@
 - Snowflake
 - About Snowflake
 - Snowflake's features include
+- Cloud data platform
 - The value of Cloud Data Platform
 - One platform, One copy of data, Many workload
+- Snowflake’s Data Cloud Platform
+- Data Platform as a Self-managed Service
 
 &nbsp;
 
@@ -14,13 +17,16 @@
 
 # Snowflake
 
-Snowflake is a cloud data platform that offers data warehousing, data lakes, data engineering, data science, and more.
+Snowflake is a **cloud data platform** that offers data warehousing, data lakes, data engineering, data science, and more.
 
 It's designed to be more flexible, faster, and easier to use than traditional data warehouses.
 
-Snowflake's architecture is built for the cloud and uses a new SQL database engine instead of existing database or "big data" software platforms. It's built on Amazon Web Services or Microsoft Azure cloud infrastructure.
+Snowflake's architecture is **built for the cloud** and **uses a new SQL database engine** instead of existing database or "big data" software platforms such as Hadoop. It's built on Amazon Web Services or Microsoft Azure cloud infrastructure.
+
+To the user, Snowflake provides all of the functionality of an enterprise analytic database, along with many additional special features and unique capabilities.
 
 Snowflake is **_Software as a Service (SaaS) == Data platform as a Cloud Service == Data Warehouse as a Cloud Service (DWaaS)_**
+
 &nbsp;
 
 &nbsp;
@@ -33,19 +39,19 @@ Snowflake is **_Software as a Service (SaaS) == Data platform as a Cloud Service
 
   - All kinds of use cases are supported ( Data Warehouse, Data Lake, Data Engineering, Streaming, Data Application, Data Science, Data Exchange)
 
-  - Share data to internal as well as external customers sequrely.
+  - Share data to internal as well as external customers securely.
 
 - **_Software as a Service (SaaS)_**
 
   - No software, infrastructure, or upgrades to manage.
 
-  - All update, maintenance and releases are done by snowflake and it is available for all the customers autometically
+  - All update, maintenance and releases are done by snowflake and it is available for all the customers automatically
   - Available in all 3 major cloud providers
 
 - **_Pay only for used compute and storage_**
 
-  - Storage and Compute charged independently and only for storage
-  - If you store TB's of data and no processign, you only need to pay for storage, not for computing.
+  - Storage and Compute charged independently and only for usage
+  - If you store TB's of data and no processing, you only need to pay for storage, not for computing.
 
 - **_Scalable_**
   - Virtual warehouse enables computing scaling independently from storage
@@ -71,6 +77,16 @@ Snowflake is **_Software as a Service (SaaS) == Data platform as a Cloud Service
 
 &nbsp;
 
+# Cloud Data Platform
+
+A cloud data platform is a **data center** in the cloud that provides virtualized access to data from various sources and locations.
+
+It can help organizations move their data from on-premises storage to multi-cloud environments.
+
+&nbsp;
+
+&nbsp;
+
 # The value of Cloud Data Platform
 
 - Unlimited Performance and scale
@@ -86,15 +102,15 @@ Snowflake is **_Software as a Service (SaaS) == Data platform as a Cloud Service
 
 One platform - Snowflake
 One copy of data - Data
-Many workload - Data Wasehouse, Data lake, Data Engineering, Data Application, Data Science, Data Exchange
+Many workload - Data Warehouse, Data lake, Data Engineering, Data Application, Data Science, Data Exchange
 
-- <u>**_Data Wasehouse_**</u> : Modernize data warehousing to deliver faster analytics at scale
-- <u>**_Data lake_**</u> : Simplify and accelarate your data lake with one platform for all the data
+- <u>**_Data Warehouse_**</u> : Modernize data warehousing to deliver faster analytics at scale
+- <u>**_Data lake_**</u> : Simplify and accelerate your data lake with one platform for all the data
 - <u>**_Data Engineering_**</u> : Rethink transformation with rebust and integrated data pipelines
 
 - <u>**_Data Application_**</u> : Develop apps with faster and scalable analytics that delight customers
 
-- <u>**_Data Science_**</u> : Simplify and accelarate machine learning and artificial intelligence
+- <u>**_Data Science_**</u> : Simplify and accelerate machine learning and artificial intelligence
 
 - <u>**_Data Exchange_**</u> : Empower your eco-system with secure, governed access to all data
 
@@ -102,15 +118,37 @@ Many workload - Data Wasehouse, Data lake, Data Engineering, Data Application, D
 
 &nbsp;
 
-# Access Snowflake
+# Snowflake’s Data Cloud platform
 
-you can access Snowflake using any of the following methods:
+Snowflake’s Data Cloud is powered by an advanced data platform provided as **a self-managed service**.
 
-- Browser-based web interface
+Snowflake enables data storage, processing, and analytic solutions that are faster, easier to use, and far more flexible than traditional offerings.
 
-- SnowSQL, the Snowflake command line client
+&nbsp;
 
-- Applications developed with Snowflake connectors and drivers, and 3rd-party client services and applications
+&nbsp;
+
+# Data Platform as a Self-managed Service
+
+Snowflake is a true self-managed service, meaning:
+
+- There is **no hardware** (virtual or physical) to select, install, configure, or manage.
+
+- There is virtually **no software** to install, configure, or manage.
+
+- Ongoing maintenance, management, upgrades, and tuning are handled by Snowflake.
+
+&nbsp;
+
+&nbsp;
+
+Snowflake runs completely on **cloud infrastructure**.
+
+All components of Snowflake’s service (other than optional command line clients, drivers, and connectors), run in **public** cloud infrastructures.
+
+Snowflake uses **virtual compute instances** for its compute needs and a storage service for persistent storage of data.
+
+**_Snowflake cannot be run on private cloud infrastructures (on-premises or hosted)_**
 
 &nbsp;
 

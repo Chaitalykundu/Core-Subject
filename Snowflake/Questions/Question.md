@@ -1,3 +1,5 @@
+# Questions
+
 1. Which of the following roles is recommended to be used to create and manage users and roles?
 2. True or False: Bulk unloading of data from Snowflake supports the use of a SELECT statement.
 
@@ -42,6 +44,8 @@
 &nbsp;
 
 &nbsp;
+
+# Answers
 
 1. Which of the following roles is recommended to be used to create and manage users and roles?
 
@@ -106,14 +110,14 @@ The Snowflake data platform is not built on any existing database technology or 
 
 Ans : 4
 
-8.  Which installment option versions of Snowflake are available?
+8. Which installment option versions of Snowflake are available?
 
-    - A. Microsoft Cloud Native Accounts
-    - B. Snowflake-Hosted Accounts (on Amazon cloud infrastructure)
-    - C. Hybrid On-Premises + Cloud Installation
-    - D. Snowflake-Hosted Accounts (on Google Cloud Platform infrastructure)
-    - E. On-Premises Custom Installation
-    - F. Snowflake-Hosted Accounts (on Azure cloud infrastructure)
+   - A. Microsoft Cloud Native Accounts
+   - B. Snowflake-Hosted Accounts (on Amazon cloud infrastructure)
+   - C. Hybrid On-Premises + Cloud Installation
+   - D. Snowflake-Hosted Accounts (on Google Cloud Platform infrastructure)
+   - E. On-Premises Custom Installation
+   - F. Snowflake-Hosted Accounts (on Azure cloud infrastructure)
 
 Ans : B. Snowflake-Hosted Accounts (on Amazon cloud infrastructure), D. Snowflake-Hosted Accounts (on Google Cloud Platform infrastructure), F. Snowflake-Hosted Accounts (on Azure cloud infrastructure)
 

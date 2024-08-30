@@ -1,8 +1,8 @@
 # Overview
 
 - History
-- Evalution of Cloud Data Platform
-  
+- Evolution of Cloud Data Platform
+
 &nbsp;
 
 &nbsp;
@@ -25,9 +25,9 @@ It was built by three data warehouse experts.
 
 &nbsp;
 
-# Evalution of Cloud Data Platform
+# Evolution of Cloud Data Platform
 
-## 1st Evalution
+## 1st Evolution
 
 - Traditional on-premise Enterprise Data Warehouse (EDW)
 - They were able to answer the business questions very fast
@@ -45,7 +45,7 @@ It was built by three data warehouse experts.
 
 &nbsp;
 
-## 2nd Evalution
+## 2nd Evolution
 
 - 1st generation Cloud EDW
 - They moved the same code into the public cloud
@@ -62,11 +62,11 @@ It was built by three data warehouse experts.
 
 &nbsp;
 
-## 3rd Evalution
+## 3rd Evolution
 
 - Hadoop / Data lake
 - Can load any kind of data
-- A lot of users whon have the demand for the data can access it to a certain extend
+- A lot of users who have the demand for the data can access it to a certain extend
 
 &nbsp;
 
@@ -79,7 +79,7 @@ It was built by three data warehouse experts.
 
 &nbsp;
 
-## 4th Evalution
+## 4th Evolution
 
 - Cloud Data Platform
 - All users, all data, fast answer, sql - all features are in single platform now.
@@ -91,14 +91,14 @@ It was built by three data warehouse experts.
 
 &nbsp;
 
-|               | 1st Evalution                        | 2nd Evalution            | 3rd Evalution      | 4th Evalution       |
+|               | 1st Evolution                        | 2nd Evolution            | 3rd Evolution      | 4th Evolution       |
 | ------------- | ------------------------------------ | ------------------------ | ------------------ | ------------------- |
 | Value of data | on-premise Enterprise Data Warehouse | 1st generation Cloud EDW | Hadoop / Data lake | Cloud Data Platform |
 | All users     | No                                   | No                       | Yes                | Yes                 |
 | All Data      | No                                   | No                       | Partially Yes      | Yes                 |
 | Fast answers  | Yes                                  | Yes                      | No                 | Yes                 |
 | SQL Database  | Yes                                  | Yes                      | No                 | Yes                 |
-|               |                                      |                          |
+|               |                                      |                          |                    |                     |
 
 &nbsp;
 

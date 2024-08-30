@@ -1,3 +1,15 @@
+# Overview
+
+- Snowflake Editions
+- Key Points
+- Regions
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 # Snowflake Editions
 
 Snowflake editions are
@@ -42,11 +54,27 @@ Snowflake provides two types of storage.
   - Materialized view
   - Search Optimization
   - Column & Row level security
-  - Database failover and failback (applicable for Business critical & VPS)
+  - Database failover and fallback (applicable for Business critical & VPS)
 
-- Snowflake standard edition does not get 24 hours early access to new weekly release
+- Snowflake standard edition does not get **24 hours** early access to new **weekly** release
+
+- VPS offers height security for organization and include all features as Business Critical editions. But completely separate snowflake environment.
+
+- VPS is designed for financial institutes or for such highest security use cases.
+
+- Each snowflake is hosted in a single region. If you want to use snowflake for multiple regions, you must maintain a snowflake account for each of the desired account.
+
+- Each snowflake account is different and independent from the other account
+
+- Besides compute and storage, snowflake also charges for Cloud Services and Data Transfer cost if applicable (Data loading from external datalake from other cloud provider)
+
+- MFA (Multi-factor Authentication) is enabled even for trial edition user and it has to be activated for individual user.
 
 &nbsp;
+
+&nbsp;
+
+# Regions
 
 - Snowflake supports multi regions across all of the snowflake supported cloud platforms, grouped into **three** global geographic segments
   - North America
