@@ -21,8 +21,6 @@
 
 11. Which statements are true about storage relationships?
 
-12.
-
 &nbsp;
 
 &nbsp;
@@ -141,13 +139,13 @@ Ans : Shared Data
 
 Ans : Native SQL, Hybrid Columnar, Built from the ground up for the cloud, Multi-cluster
 
-11.Which statements are true about storage relationships?
+11. Which statements are true about storage relationships?
 
-      - Snowflake Tables are stored within Schemas
-      - Snowflake Databases are stored within Warehouses
-      - Snowflake Warehouses are stored within Data Marts
-      - Snowflake Schemas are stored within Warehouses
-      - Snowflake Warehouses are stored within Databases
-      - Snowflake Schemas are stored within Databases
+    - Snowflake Tables are stored within Schemas
+    - Snowflake Databases are stored within Warehouses
+    - Snowflake Warehouses are stored within Data Marts
+    - Snowflake Schemas are stored within Warehouses
+    - Snowflake Warehouses are stored within Databases
+    - Snowflake Schemas are stored within Databases
 
 Ans : Snowflake Tables are stored within Schemas, Snowflake Schemas are stored within Databases

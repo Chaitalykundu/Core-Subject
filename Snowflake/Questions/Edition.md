@@ -143,7 +143,6 @@
 
 14. Snowflake edition, cloud provider and region can be found from the classic / legacy web UI
     > True
-    
 15. Snowflake provides two types of storage. On-demand & Capacity. Capacity storage comes with discounted pricing and needs up-front commitment
 
     > True

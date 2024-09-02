@@ -4,6 +4,7 @@
 - On-premise Meaning
 - Workload isolation
 - Access control
+- Enterprise data warehouse vs data marts
 
 &nbsp;
 

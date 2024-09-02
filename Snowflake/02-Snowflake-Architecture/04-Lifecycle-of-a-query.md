@@ -54,6 +54,3 @@ All security features are in-built. We just need to enable it. Snowflake itself 
 All optimization and security features are taken care by snowflake.
 
 We just need to focus on building SQL objects, role-security and run business.
-
-
-

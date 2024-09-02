@@ -96,6 +96,45 @@
     - Amount stored on first day of month
     - Amount stored - Daily average
 
+13. Which statements are true about storage relationships?
+
+    - Snowflake Tables are stored within Schemas
+    - Snowflake Databases are stored within Warehouses
+    - Snowflake Warehouses are stored within Data Marts
+    - Snowflake Schemas are stored within Warehouses
+    - Snowflake Warehouses are stored within Databases
+    - Snowflake Schemas are stored within Databases
+
+14. When a warehouse is resized, which queries make use of the new size?
+
+    - Both current and subsequent queries
+    - Only currently running queries
+    - Only subsequent queries
+
+15. Snowflake data storage costs include which types of data?
+
+    - Metadata
+    - Persistent data stored in permanent tables
+    - Data retained to enable data recovery (time travel and fail-safe)
+    - Cached results
+    - Semi-structured data - additional fees
+
+16. Snowflake compute costs depend on which of the following?
+
+    - The number of rows returned in queries.
+    - The amount of time warehouses have run.
+    - The total number of warehouses in the account.
+    - The sizes of running warehouses.
+
+17. How often does Snowflake release new features?
+
+18. What common tasks for traditional on-premises database and IT staff are not required with Snowflake?
+
+    - Maintaining metadata
+    - Maintaining statistics
+    - Maintaining the physical security of a server room (key cards, door locks, etc.)
+    - Maintaining database objects
+
 &nbsp;
 
 &nbsp;
@@ -168,3 +207,32 @@
 
     > - Compressed size
     > - Amount stored - Daily average
+
+13. Which statements are true about storage relationships?
+
+    > - Snowflake Tables are stored within Schemas
+    > - Snowflake Schemas are stored within Databases
+
+14. When a warehouse is resized, which queries make use of the new size?
+
+    > Only subsequent queries
+
+15. Snowflake data storage costs include which types of data?
+
+    > - Persistent data stored in permanent tables
+    > - Data retained to enable data recovery (time travel and fail-safe)
+
+16. Snowflake compute costs depend on which of the following?
+
+    > - The amount of time warehouses have run.
+    > - The sizes of running warehouses.
+
+17. How often does Snowflake release new features?
+
+    > Weekly
+
+18. What common tasks for traditional on-premises database and IT staff are not required with Snowflake?
+
+    > - Maintaining metadata
+    > - Maintaining statistics
+    > - Maintaining the physical security of a server room (key cards, door locks, etc.)

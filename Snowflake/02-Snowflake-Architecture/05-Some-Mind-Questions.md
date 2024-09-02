@@ -38,18 +38,18 @@
 
 5. I have many BI (Power BI or Tableau) users who want to access the warehouse tables and generate the reports. What virtual warehouse should I use.
 
-    ```md
-    Create an elastic cluster (multi warehouse cluster) and it automatically scales up and down as the number of BI users increases to cater to the concurrency and still give the same fast result.
-    ```
+   ```md
+   Create an elastic cluster (multi warehouse cluster) and it automatically scales up and down as the number of BI users increases to cater to the concurrency and still give the same fast result.
+   ```
 
 &nbsp;
 
 6. I have a data science team and they have a compute-heavy workload.
 
-    ```md
-    Allocate 8 node cluster and allow then to run their machine learning job.
-    ```
-    
+   ```md
+   Allocate 8 node cluster and allow then to run their machine learning job.
+   ```
+
 &nbsp;
 
 &nbsp;

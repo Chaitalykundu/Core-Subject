@@ -1,8 +1,9 @@
 # Overview
 
-- Snowflake Editions
-- Key Points
-- Regions
+- Snowflake Data Warehouse Architecture
+- Benefits of Multi-Clustered Shared Data Architecture
+- Snowflake’s architecture as hybrid
+- Hybrid Approach
 
 &nbsp;
 

@@ -163,6 +163,7 @@ The main motive of this architecture is to remove the contention among nodes.
 | Its advantage is that it has unlimited scalability                                                                                                           | Its advantage is that it has high availability                                                             |
 | Its clustering architecture, which makes use of a single disc device with distinct memories, can have its memory capacity increased by upgrading the memory. | Scaling up in terms of capacity is easier. For getting more space, a new node can be added to the cluster. |
 |                                                                                                                                                              |                                                                                                            |
+
 &nbsp;
 
 &nbsp;
