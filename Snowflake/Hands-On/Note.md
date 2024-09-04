@@ -1,0 +1,1 @@
+Snowflake supports structured as well as unstructured data

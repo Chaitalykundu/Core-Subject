@@ -14,6 +14,8 @@
 
 # Why Snowflake
 
+- Simple, reliable data pipelines in multi languages like **Java, Python, PHP, Spark, Ruby** etc.
+
 - Snowflake is relatively new and fresh in cloud data warehouse space
 - It is purposely built only for cloud platform (AWS, Azure, GCP,)
 - Brings many unique features beside workload isolation like -

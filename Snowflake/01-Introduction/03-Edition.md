@@ -78,9 +78,10 @@ Snowflake provides two types of storage.
 # Regions
 
 Snowflake supports multi regions across all of the snowflake supported cloud platforms, grouped into **three** global geographic segments
-  - North America
-  - Europe
-  - Asia Pacific
+
+- North America
+- Europe
+- Asia Pacific
 
 # Cloud Providers
 

@@ -17,13 +17,15 @@
 
 # Snowflake
 
-Snowflake is a **cloud data platform** that offers data warehousing, data lakes, data engineering, data science, and more.
+Snowflake is a **cloud data platform** for data storage and analytics purpose, that offers data warehousing, data lakes, data engineering, data science, and more.
 
 It's designed to be more flexible, faster, and easier to use than traditional data warehouses.
 
 Snowflake's architecture is **built for the cloud** and **uses a new SQL database engine** instead of existing database or "big data" software platforms such as Hadoop. It's built on Amazon Web Services or Microsoft Azure cloud infrastructure.
 
 To the user, Snowflake provides all of the functionality of an enterprise analytic database, along with many additional special features and unique capabilities.
+
+The analytic solutions provided by Snowflake are faster, easy to use and more flexible than traditional databases and their analytics features. Snowflake stores and provide data near time not in actual real time.
 
 Snowflake is **_Software as a Service (SaaS) == Data platform as a Cloud Service == Data Warehouse as a Cloud Service (DWaaS)_**
 
@@ -149,40 +151,6 @@ All components of Snowflake’s service (other than optional command line client
 Snowflake uses **virtual compute instances** for its compute needs and a storage service for persistent storage of data.
 
 **_Snowflake cannot be run on private cloud infrastructures (on-premises or hosted)_**
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 &nbsp;
 

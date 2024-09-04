@@ -21,6 +21,13 @@
 
 11. Which statements are true about storage relationships?
 
+12. Among the options listed, which is not a valid Snowflake Warehouse Size?
+
+- S
+- XL
+- M
+- XXS
+
 &nbsp;
 
 &nbsp;
@@ -149,3 +156,7 @@ Ans : Native SQL, Hybrid Columnar, Built from the ground up for the cloud, Multi
     - Snowflake Schemas are stored within Databases
 
 Ans : Snowflake Tables are stored within Schemas, Snowflake Schemas are stored within Databases
+
+12. Among the options listed, which is not a valid Snowflake Warehouse Size?
+
+    > XXS

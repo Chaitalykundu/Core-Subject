@@ -68,7 +68,7 @@
 
 # Module 1
 
-1.  The architecture of Snowflake is
+1. The architecture of Snowflake is
 
     - shared disk
     - shared nothing
@@ -77,9 +77,9 @@
 
     Ans : data
 
-2.  Are databases stored within warehouses? Are warehouses stored within databases?
+2. Are databases stored within warehouses? Are warehouses stored within databases?
 
-3.  Does Snowflake store data with
+3. Does Snowflake store data with
 
     - compression?
     - Encryption?
@@ -87,18 +87,18 @@
 
     Ans : Both
 
-4.  When a warehouse is resized, what queries are affected? Only current? Current and
+4. When a warehouse is resized, what queries are affected? Only current? Current and
     subsequent? Only subsequent?
 
         Ans : Only subsequent
 
-5.  Costs are broken down into what two major categories?
+5. Costs are broken down into what two major categories?
 
-6.  Storage costs are based on the daily average of stored data. Is this based on the data's compressed size or uncompressed size?
+6. Storage costs are based on the daily average of stored data. Is this based on the data's compressed size or uncompressed size?
 
         Ans : compressed size
 
-7.  What things aren't required because Snowflake is a true SaaS solution?
+7. What things aren't required because Snowflake is a true SaaS solution?
 
         Ans : No hardware to purchase or configure.
 
@@ -106,9 +106,9 @@
 
         Transparent releases don't require user intervention.
 
-8.  Can Snowflake be hosted on a company's internal cloud? What on-premise options are offered by Snowflake?
+8. Can Snowflake be hosted on a company's internal cloud? What on-premise options are offered by Snowflake?
 
-9.  Can Snowflake be purchased for installation on a company's internal servers or Virtual Private Cloud(VPC)?
+9. Can Snowflake be purchased for installation on a company's internal servers or Virtual Private Cloud(VPC)?
 
 10. Snowflake uses MPP compute clusters. Are these called Virtual Data Marts? or Virtual Warehouses?
 

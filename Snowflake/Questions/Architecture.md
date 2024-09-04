@@ -135,6 +135,13 @@
     - Maintaining the physical security of a server room (key cards, door locks, etc.)
     - Maintaining database objects
 
+19. Snowflake is a packaged software offering that can be installed by a user
+
+    - It is true only for standard edition of snowflake
+    - It is true for standard and enterprise edition of snowflake
+    - It is not true
+    - It is true only for standard edition of snowflake
+
 &nbsp;
 
 &nbsp;
@@ -162,6 +169,8 @@
 4. Which ONE of the following terms BEST describes Snowflake's Architecture?
 
    > C. Shared Data
+
+   It's also Hybrid architecture (Shared disk + shared nothing)
 
 5. Which of the following terms or phrases can also be used to describe Snowflake?
 
@@ -236,3 +245,9 @@
     > - Maintaining metadata
     > - Maintaining statistics
     > - Maintaining the physical security of a server room (key cards, door locks, etc.)
+
+19. Snowflake is a packaged software offering that can be installed by a user
+
+    > - It is not true
+
+    Snowflake manages all aspects of software installation & updates
