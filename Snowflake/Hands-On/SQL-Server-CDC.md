@@ -22,4 +22,4 @@
 
 # Enable CDC in database
 
-- CDC is intended for sources that reside on a sql server 2008 
+- CDC is intended for sources that reside on a sql server 2008

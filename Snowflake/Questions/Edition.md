@@ -83,6 +83,8 @@
 
 30. What is the primary function of the Storage Layer in Snowflake, often known as Remote Disk?
 
+31. Each week snowflake deploys how many releases?
+
 &nbsp;
 
 &nbsp;
@@ -175,3 +177,9 @@
 
 22. Which of the following features is NOT included in the Standard Edition of Snowflake?
     > Multi-cluster warehouse
+
+&nbsp;
+
+31. Each week snowflake deploys how many releases?
+
+    > two Planned releases. Full release & Planned Release

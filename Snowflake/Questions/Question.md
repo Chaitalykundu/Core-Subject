@@ -23,10 +23,38 @@
 
 12. Among the options listed, which is not a valid Snowflake Warehouse Size?
 
-- S
-- XL
-- M
-- XXS
+    - S
+    - XL
+    - M
+    - XXS
+
+13. As part of release process, snowflake does not move all accounts to release at the same time and follows a staged approached. Select the stage which is named as early access?
+
+    - Stage - 1
+    - Stage - 2
+    - Stage - 3
+    - Stage - 4
+
+14. As part of release process, snowflake does not move all accounts to release at the same time and follows a staged approached. Select the stage which is named as regular access?
+
+    - Stage - 1
+    - Stage - 2
+    - Stage - 3
+    - Stage - 4
+
+15. All ingested data stored in snowflake tables is encrypted using `____` strong encryption
+
+- AES-64
+- AES-128
+- AES-256
+- AES-512
+
+16. The 3rd party tools and technologies, as well as the snowflake provided clients is classified as `______`
+
+- Snowflake Ecosystem tool
+- Snowflake Partner tools
+- Snowflake Service tools
+- Snowflake drivers
 
 &nbsp;
 
@@ -160,3 +188,25 @@ Ans : Snowflake Tables are stored within Schemas, Snowflake Schemas are stored w
 12. Among the options listed, which is not a valid Snowflake Warehouse Size?
 
     > XXS
+
+13. As part of release process, snowflake does not move all accounts to release at the same time and follows a staged approached. Select the stage which is named as early access?
+
+    > Stage - 1
+
+         Stage 1 is also known as early access and designated for enterprise ( or higher) edition of snowflake accounts
+
+14. As part of release process, snowflake does not move all accounts to release at the same time and follows a staged approached. Select the stage which is named as regular access?
+
+    > Stage - 2
+
+         Stage -2 is also know as regular access and designed for Standard accounts
+
+15. All ingested data stored in snowflake tables is encrypted using `____` strong encryption
+
+    > AES-256
+
+         All files stored in internal stages for data loading & unloading operations is automatically encrypted using AES-256 strong encryption
+
+16. The 3rd party tools and technologies, as well as the snowflake provided clients is classified as `______`
+
+    > Snowflake Ecosystem tool
