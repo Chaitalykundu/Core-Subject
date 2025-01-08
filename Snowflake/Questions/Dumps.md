@@ -9,7 +9,16 @@
 
    > Clustering keys
 
-2. Which of the following are valid Snowflake Virtual Warehouse Scaling Policies? (Choose two.)
+2. Which of the following roles is recommended to be used to create and manage users and roles?
+
+   - SYSADMIN
+   - SECURITYADMIN
+   - PUBLIC
+   - ACCOUNTADMIN
+
+   > SECURITYADMIN
+
+3. Which of the following are valid Snowflake Virtual Warehouse Scaling Policies? (Choose two.)
 
    - Custom
    - Economy
@@ -20,7 +29,7 @@
 
    > Standard
 
-3. Select the different types of Internal Stages: (Choose three.)
+4. Select the different types of Internal Stages: (Choose three.)
 
    - Named Stage
    - User Stage
@@ -33,7 +42,7 @@
 
    > Table Stage
 
-4. Account-level storage usage can be monitored via
+5. Account-level storage usage can be monitored via
 
    - The Snowflake Web Interface (UI) in the Databases section
    - The Snowflake Web Interface (UI) in the Account -> Billing & Usage section
@@ -42,7 +51,7 @@
 
    > The Snowflake Web Interface (UI) in the Account -> Billing & Usage section
 
-5. Which statement best describes `clustering`?
+6. Which statement best describes `clustering`?
 
    - Clustering represents the way data is grouped together and stored within Snowflake's micro-partitions
    - The database administrator must define the clustering methodology for each Snowflake table
@@ -51,7 +60,7 @@
 
    > Clustering represents the way data is grouped together and stored within Snowflake's micro-partitions
 
-6. Which of the following commands sets the Virtual Warehouse for a session?
+7. Which of the following commands sets the Virtual Warehouse for a session?
 
    - COPY WAREHOUSE FROM `<<config file>>`;
    - SET WAREHOUSE = `<<warehouse name>>`;
@@ -60,7 +69,7 @@
 
    > USE WAREHOUSE `<<warehouse name>>`;
 
-7. Which object allows you to limit the number of credits consumed within a Snowflake account?
+8. Which object allows you to limit the number of credits consumed within a Snowflake account?
 
    - Account Usage Tracking
    - Resource Monitor
@@ -69,7 +78,7 @@
 
    > Resource Monitor
 
-8. What are the three layers that make up Snowflake's architecture? (Choose three.)
+9. What are the three layers that make up Snowflake's architecture? (Choose three.)
 
    - Compute
    - Tri-Secret Secure
@@ -82,25 +91,17 @@
 
    > Cloud Services
 
-9. Which of the following connectors allow Multi-Factor Authentication (MFA) authorization when connecting? (Choose all that apply.)
+10. Which of the following connectors allow Multi-Factor Authentication (MFA) authorization when connecting? (Choose all that apply.)
 
-   - JDBC
-   - SnowSQL
-   - Snowflake Web Interface (UI)
-   - ODBC
-   - Python
+    - JDBC
+    - SnowSQL
+    - Snowflake Web Interface (UI)
+    - ODBC
+    - Python
 
-   > JDBC
+    > All
 
-   > SnowSQL
-
-   > Snowflake Web Interface (UI)
-
-   > ODBC
-
-   > Python
-
-10. Which of the following statements describes a benefit of Snowflake's separation of compute and storage? (Choose all that apply.)
+11. Which of the following statements describes a benefit of Snowflake's separation of compute and storage? (Choose all that apply.)
 
     - Growth of storage and compute are tightly coupled together
     - Storage expands without the requirement to add more compute
@@ -113,24 +114,9 @@
 
     > Multiple compute clusters can access stored data without contention
 
-11. In which layer of its architecture does Snowflake store its metadata statistics?
+12. In which layer of its architecture does Snowflake store its metadata statistics?
 
     > Cloud Services Layer
-
-12. Which of the following statements are true of Virtual Warehouses? (Choose all that apply.)
-
-    - Customers can change the size of the Warehouse after creation
-    - A Warehouse can be resized while running
-    - A Warehouse can be configured to suspend after a period of inactivity
-    - A Warehouse can be configured to auto-resume when new queries are submitted
-
-    > Customers can change the size of the Warehouse after creation
-
-    > A Warehouse can be resized while running
-
-    > A Warehouse can be configured to suspend after a period of inactivity
-
-    > A Warehouse can be configured to auto-resume when new queries are submitted
 
 13. The PUT command: (Choose two.)
 
@@ -551,6 +537,416 @@
 
     > It was built specifically for the cloud
 
+55. What tasks can be completed using the copy command? (Select TWO)
+
+    - A. Columns can be aggregated
+    - B. Columns can be joined with an existing table
+    - C. Columns can be reordered
+    - D. Columns can be omitted
+    - E. Data can be loaded without the need to spin up a virtual warehouse
+
+    > C, D
+
+56. User-level network policies can be created by which of the following roles? (Select TWO).
+
+    - A. ROLEADMIN
+    - B. ACCOUNTADMIN
+    - C. SYSADMIN
+    - D. SECURITYADMIN
+    - E. USERADMIN
+
+    > D,E
+
+57. What can be used to view warehouse usage over time? (Select Two).
+
+    - A. The load HISTORY view
+    - B. The Query history view
+    - C. The show warehouses command
+    - D. The WAREHOUSE_METERING HISTORY View
+    - E. The billing and usage tab in the Snowflake web Ul
+
+    > Correct Answer: D,E
+
+58. What is the default file size when unloading data from Snowflake using the COPY command?
+
+    > 16 MB
+
+59. What features that are part of the Continuous Data Protection (CDP) feature set in Snowflake do not require additional configuration? (Choose two.)
+
+    - A. Row level access policies
+    - B. Data masking policies
+    - C. Data encryption
+    - D. Time Travel
+    - E. External tokenization
+
+    > C, D
+
+60. Which Snowflake layer is always leveraged when accessing a query from the result cache?
+
+    - A. Metadata
+    - B. Data Storage
+    - C. Compute
+    - D. Cloud Services
+
+    > D. Cloud Services
+
+61. A Snowflake Administrator needs to ensure that sensitive corporate data in Snowflake tables is not visible to end users, but is partially visible to functional managers. How can this requirement be met?
+
+    - A. Use data encryption.
+    - B. Use dynamic data masking.
+    - C. Use secure materialized views.
+    - D. Revoke all roles for functional managers and end users.
+
+62. Users are responsible for data storage costs until what occurs?
+
+    - A. Data expires from Time Travel
+    - B. Data expires from Fail-safe
+    - C. Data is deleted from a table
+    - D. Data is truncated from a table
+
+    > B.
+
+63. A user has an application that writes a new file to a cloud storage location every 5 minutes. What would be the MOST efficient way to get the files into Snowflake?
+
+    - A. Create a task that runs a COPY INTO operation from an external stage every 5 minutes.
+    - B. Create a task that PUTS the files in an internal stage and automate the data loading wizard.
+    - C. Create a task that runs a GET operation to intermittently check for new files.
+    - D. Set up cloud provider notifications on the file location and use Snowpipe with auto-ingest.
+
+    > D
+
+64. What affects whether the query results cache can be used?
+
+    - A. If the query contains a deterministic function
+    - B. If the virtual warehouse has been suspended
+    - C. If the referenced data in the table has changed
+    - D. If multiple users are using the same virtual warehouse
+
+    > C
+
+65. Which of the following is an example of an operation that can be completed without requiring compute, assuming no queries have been executed previously?
+
+    - A. SELECT SUM (ORDER_AMT) FROM SALES;
+    - B. SELECT AVG(ORDER_QTY) FROM SALES;
+    - C. SELECT MIN(ORDER_AMT) FROM SALES;
+    - D. SELECT ORDER_AMT \* ORDER_QTY FROM SALES;
+
+    > C. SELECT MIN(ORDER_AMT) FROM SALES;
+
+66. How many days is load history for Snowpipe retained?
+
+    - A. 1 day
+    - B. 7 days
+    - C. 14 days
+    - D. 64 days
+
+    > C. 14 days
+
+67. What Snowflake features allow virtual warehouses to handle high concurrency workloads? (Choose two.)
+
+    - A. The ability to scale up warehouses
+    - B. The use of warehouse auto scaling
+    - C. The ability to resize warehouses
+    - D. Use of multi-clustered warehouses
+    - E. The use of warehouse indexing
+
+    > B, D
+
+68. Which COPY INTO command outputs the data into one file?
+
+    - A. SINGLE=TRUE
+    - B. MAX_FILE_NUMBER=1
+    - C. FILE_NUMBER=1
+    - D. MULTIPLE=FALSE
+
+    > A. SINGLE=TRUE
+
+69. In which scenarios would a user have to pay Cloud Services costs? (Choose two.)
+
+    - A. Compute Credits = 50 Credits Cloud Services = 10
+    - B. Compute Credits = 80 Credits Cloud Services = 5
+    - C. Compute Credits = 100 Credits Cloud Services = 9
+    - D. Compute Credits = 120 Credits Cloud Services = 10
+    - E. Compute Credits = 200 Credits Cloud Services = 26
+
+    > A, E
+
+70. A user created a new worksheet within the Snowsight UI and wants to share this with teammates. How can this worksheet be shared?
+
+    - A. Create a zero-copy clone of the worksheet and grant permissions to teammates.
+    - B. Create a private Data Exchange so that any teammate can use the worksheet.
+    - C. Share the worksheet with teammates within Snowsight.
+    - D. Create a database and grant all permissions to teammates.
+
+    > C. Share the worksheet with teammates within Snowsight.
+
+71. How can a row access policy be applied to a table or a view? (Choose two.)
+
+    - A. Within the policy DDL
+    - B. Within the create table or create view DDL
+    - C. By future APPLY for all objects in a schema
+    - D. Within a control table
+    - E. Using the command ALTER `[object]` ADD ROW ACCESS POLICY `[policy]`;
+
+    > B, E
+
+72. Which command can be used to load data files into a Snowflake stage?
+
+    - A. JOIN
+    - B. COPY INTO
+    - C. PUT
+    - D. GET
+
+    > C. PUT
+
+73. What types of data listings are available in the Snowflake Data Marketplace? (Choose two.)
+
+    - A. Reader
+    - B. Consumer
+    - C. Vendor
+    - D. Standard
+    - E. Personalized
+
+    > D, E
+
+74. What is the maximum Time Travel retention period for a temporary Snowflake table?
+
+    - A. 90 days
+    - B. 1 day
+    - C. 7 days
+    - D. 45 days
+
+    > B. 1 day
+
+75. When should a multi-cluster warehouse be used in auto-scaling mode?
+
+    - A. When it is unknown how much compute power is needed
+    - B. If the select statement contains a large number of temporary tables or Common Table Expressions (CTEs)
+    - C. If the runtime of the executed query is very slow
+    - D. When a large number of concurrent queries are run on the same warehouse
+
+    > D
+
+76. What happens when a cloned table is replicated to a secondary database? (Choose two.)
+
+    - A. A read-only copy of the cloned tables is stored.
+    - B. The replication will not be successful.
+    - C. The physical data is replicated.
+    - D. Additional costs for storage are charged to a secondary account.
+    - E. Metadata pointers to cloned tables are replicated.
+
+    > C, D
+
+77. Snowflake supports the use of external stages with which cloud platforms? (Choose three.)
+
+    - A. Amazon Web Services
+    - B. Docker
+    - C. IBM Cloud
+    - D. Microsoft Azure Cloud
+    - E. Google Cloud Platform
+    - F. Oracle Cloud
+
+    > A, D, E
+
+78. What is a limitation of a Materialized View?
+
+    - A. A Materialized View cannot support any aggregate functions
+    - B. A Materialized View can only reference up to two tables
+    - C. A Materialized View cannot be joined with other tables
+    - D. A Materialized View cannot be defined with a JOIN
+
+    > D
+
+79. In the Snowflake access control model, which entity owns an object by default?
+
+    - A. The user who created the object
+    - B. The SYSADMIN role
+    - C. Ownership depends on the type of object
+    - D. The role used to create the object
+
+    > D
+
+80. What is the minimum Snowflake edition required to use Dynamic Data Masking?
+
+    - A. Standard
+    - B. Enterprise
+    - C. Business Critical
+    - D. Virtual Private Snowflake (VPC)
+
+    > B
+
+81. Which services does the Snowflake Cloud Services layer manage? (Choose two.)
+
+    - A. Compute resources
+    - B. Query execution
+    - C. Authentication
+    - D. Data storage
+    - E. Metadata
+
+    > C, E
+
+82. A company needs to allow some users to see Personally Identifiable Information (PII) while limiting other users from seeing the full value of the PII. Which Snowflake feature will support this?
+
+    - A. Row access policies
+    - B. Data masking policies
+    - C. Data encryption
+    - D. Role based access control
+
+    > B
+
+83. A user has unloaded data from a Snowflake table to an external stage.Which command can be used to verify if data has been uploaded to the external stage named my_stage?
+
+    - A. view @my_stage
+    - B. list @my_stage
+    - C. show @my_stage
+    - D. display @my_stage
+
+    > B
+
+84. Which tasks are performed in the Snowflake Cloud Services layer? (Choose two.)
+
+    - A. Management of metadata
+    - B. Computing the data
+    - C. Maintaining Availability Zones
+    - D. Infrastructure security
+    - E. Parsing and optimizing queries
+
+    > A, E
+
+85. What is true about sharing data in Snowflake? (Choose two.)
+
+    - A. The Data Consumer pays for data storage as well as for data computing.
+    - B. The shared data is copied into the Data Consumer account, so the Consumer can modify it without impacting the base data of the Provider.
+    - C. A Snowflake account can both provide and consume shared data.
+    - D. The Provider is charged for compute resources used by the Data Consumer to query the shared data.
+    - E. The Data Consumer pays only for compute resources to query the shared data.
+
+    > C, E
+
+86. The following JSON is stored in a VARIANT column called src of the CAR_SALES table: A user needs to extract the dealership information from the JSON. How can this be accomplished?
+
+    ```json
+    {
+       "customer": [
+         {
+           "address": "San Francisco, CA",
+           "name": "Joyce Ridgely",
+         }
+       ],
+       "date": "2017-04-28",
+       "dealership": "Valley View Auto Sales",
+       "salesperson": {
+         "id": "55",
+       },
+    ```
+
+    - A. select src:dealership from car_sales;
+    - B. select src.dealership from car_sales;
+    - C. select src:Dealership from car_sales;
+    - D. select dealership from car_sales;
+
+    > A. select src:dealership from car_sales;
+
+87. Which of the following significantly improves the performance of selective point lookup queries on a table?
+
+    - A. Clustering
+    - B. Materialized Views
+    - C. Zero-copy Cloning
+    - D. Search Optimization Service
+
+    > D
+
+88. Which of the following accurately describes shares?
+
+    - A. Tables, secure views, and secure UDFs can be shared
+    - B. Shares can be shared
+    - C. Data consumers can clone a new table from a share
+    - D. Access to a share cannot be revoked once granted
+
+    > A
+
+89. What are best practice recommendations for using the ACCOUNTADMIN system-defined role in Snowflake? (Choose two.)
+
+    - A. Ensure all ACCOUNTADMIN roles use Multi-factor Authentication (MFA).
+    - B. All users granted ACCOUNTADMIN role must be owned by the ACCOUNTADMIN role.
+    - C. The ACCOUNTADMIN role must be granted to only one user.
+    - D. Assign the ACCOUNTADMIN role to at least two users, but as few as possible.
+    - E. All users granted ACCOUNTADMIN role must also be granted SECURITYADMIN role.
+
+    > A, D
+
+Question #225Topic 1
+
+22. What is the minimum Snowflake edition required for row level security?
+
+    - A. Standard
+    - B. Enterprise
+    - C. Business Critical
+    - D. Virtual Private Snowflake
+
+    > B. Enterprise
+
+Question #226Topic 1
+
+22. The is the minimum Fail-safe retention time period for transient tables?
+
+    - A. 1 day
+    - B. 7 days
+    - C. 12 hours
+    - D. 0 days
+
+    > D. 0 days
+
+Question #227Topic 1
+
+22. What is a machine learning and data science partner within the Snowflake Partner Ecosystem?
+
+    - A. Informatica
+    - B. Power BI
+    - C. Adobe
+    - D. Data Robot
+
+    > D. Data Robot
+
+Question #228Topic 1
+
+22. Which statements are correct concerning the leveraging of third-party data from the Snowflake Data Marketplace? (Choose two.)
+
+    - A. Data is live, ready-to-query, and can be personalized.
+    - B. Data needs to be loaded into a cloud provider as a consumer account.
+    - C. Data is not available for copying or moving to an individual Snowflake account.
+    - D. Data is available without copying or moving.
+    - E. Data transformations are required when combining Data Marketplace datasets with existing data in Snowflake.
+
+    > A. D
+
+Question #229Topic 1
+
+22. What impacts the credit consumption of maintaining a materialized view? (Choose two.)
+
+    - A. Whether or not it is also a secure view
+    - B. How often the underlying base table is queried
+    - C. How often the base table changes
+    - D. Whether the materialized view has a cluster key defined
+    - E. How often the materialized view is queried
+
+    > C, D
+
+Question #230Topic 1
+
+22. What COPY INTO SQL command should be used to unload data into multiple files?
+
+    - A. SINGLE=TRUE
+    - B. MULTIPLE=TRUE
+    - C. MULTIPLE=FALSE
+    - D. SINGLE=FALSE
+
+    > D
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -558,15 +954,6 @@
 &nbsp;
 
 # Confusion
-
-1. Which of the following roles is recommended to be used to create and manage users and roles?
-
-   - SYSADMIN
-   - SECURITYADMIN
-   - PUBLIC
-   - ACCOUNTADMIN
-
-   > SECURITYADMIN
 
 2. Snowflake is designed for which type of workloads? (Choose two.)
 
@@ -616,7 +1003,16 @@
 
    > To accommodate a more complex workload
 
-6. Which interfaces can be used to create and/or manage Virtual Warehouses?
+6. Which of the following statements are true of Virtual Warehouses? (Choose all that apply.)
+
+   - Customers can change the size of the Warehouse after creation
+   - A Warehouse can be resized while running
+   - A Warehouse can be configured to suspend after a period of inactivity
+   - A Warehouse can be configured to auto-resume when new queries are submitted
+
+   > All
+
+7. Which interfaces can be used to create and/or manage Virtual Warehouses?
 
    - The Snowflake Web Interface (UI)
    - SQL commands
@@ -625,7 +1021,7 @@
 
    > All of the above
 
-7. When a Pipe is recreated using the CREATE OR REPLACE PIPE command:
+8. When a Pipe is recreated using the CREATE OR REPLACE PIPE command:
 
    - The Pipe load history is reset to empty
    - The REFRESH parameter is set to TRUE
@@ -634,7 +1030,7 @@
 
    > The Pipe load history is reset to empty
 
-8. Which of the following statements are true of Snowflake releases: (Choose two.)
+9. Which of the following statements are true of Snowflake releases: (Choose two.)
 
    - They happen approximately weekly
    - They roll up and release approximately monthly, but customers can request early release application
@@ -645,14 +1041,24 @@
 
    > During a release, new customer requests/queries/connections transparently move over to the newer version
 
-9. The FLATTEN function is used to query which type of data in Snowflake?
+10. The FLATTEN function is used to query which type of data in Snowflake?
 
-   - Structured data
-   - Semi-structured data
-   - Both of the above
-   - None of the above
+    - Structured data
+    - Semi-structured data
+    - Both of the above
+    - None of the above
 
-   > Semi-structured data
+    > Semi-structured data
+
+11. Which connectors are available in the downloads section of the Snowflake web interface (UI)? (Choose two.)
+
+    - A. SnowSQL
+    - B. JDBC
+    - C. ODBC
+    - D. HIVE
+    - E. Scala
+
+    > A, c
 
 ### doubt
 
@@ -675,6 +1081,17 @@
     - Bulk copy from an Internal Stage
 
     > All / A,B,D
+
+78. In the query profiler view for a query, which components represent areas that can be used to help optimize query performance? (Choose two.)
+
+
+    - A. Bytes scanned
+    - B. Bytes sent over the network
+    - C. Number of partitions scanned
+    - D. Percentage scanned from cache
+    - E. External bytes scanned
+
+    >
 
 &nbsp;
 
@@ -782,6 +1199,14 @@
     > True
 
 23. AWS Private Link provides a secure connection from the Customer's on-premise data center to the Snowflake.
+
+    > False
+
+24. Snowflake supports federated authentication in all editions.
+
+    > True
+
+25. When Snowflake is configured to use Single Sign-on (sso), Snowflake receive the usernames and credentials from the sso service and loads them into the customer's Snowflake account
 
     > False
 
