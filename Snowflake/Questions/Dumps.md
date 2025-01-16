@@ -20,7 +20,20 @@
 
    > Standard
 
-3. Select the different types of Internal Stages: (Choose three.)
+3. Which of the following roles is recommended to be used to create and manage users and roles?
+
+   - SYSADMIN
+   - SECURITYADMIN
+   - PUBLIC
+   - ACCOUNTADMIN
+
+   > SECURITYADMIN
+
+   ```md
+   SECURITYADMIN, parent of USERADMIN
+   ```
+
+4. Select the different types of Internal Stages: (Choose three.)
 
    - Named Stage
    - User Stage
@@ -33,7 +46,7 @@
 
    > Table Stage
 
-4. Account-level storage usage can be monitored via
+5. Account-level storage usage can be monitored via
 
    - The Snowflake Web Interface (UI) in the Databases section
    - The Snowflake Web Interface (UI) in the Account -> Billing & Usage section
@@ -42,7 +55,7 @@
 
    > The Snowflake Web Interface (UI) in the Account -> Billing & Usage section
 
-5. Which statement best describes `clustering`?
+6. Which statement best describes `clustering`?
 
    - Clustering represents the way data is grouped together and stored within Snowflake's micro-partitions
    - The database administrator must define the clustering methodology for each Snowflake table
@@ -51,7 +64,7 @@
 
    > Clustering represents the way data is grouped together and stored within Snowflake's micro-partitions
 
-6. Which of the following commands sets the Virtual Warehouse for a session?
+7. Which of the following commands sets the Virtual Warehouse for a session?
 
    - COPY WAREHOUSE FROM `<<config file>>`;
    - SET WAREHOUSE = `<<warehouse name>>`;
@@ -60,7 +73,7 @@
 
    > USE WAREHOUSE `<<warehouse name>>`;
 
-7. Which object allows you to limit the number of credits consumed within a Snowflake account?
+8. Which object allows you to limit the number of credits consumed within a Snowflake account?
 
    - Account Usage Tracking
    - Resource Monitor
@@ -69,7 +82,7 @@
 
    > Resource Monitor
 
-8. What are the three layers that make up Snowflake's architecture? (Choose three.)
+9. What are the three layers that make up Snowflake's architecture? (Choose three.)
 
    - Compute
    - Tri-Secret Secure
@@ -82,36 +95,15 @@
 
    > Cloud Services
 
-9. Which of the following connectors allow Multi-Factor Authentication (MFA) authorization when connecting? (Choose all that apply.)
+10. Which of the following connectors allow Multi-Factor Authentication (MFA) authorization when connecting? (Choose all that apply.)
 
-   - JDBC
-   - SnowSQL
-   - Snowflake Web Interface (UI)
-   - ODBC
-   - Python
+    - JDBC
+    - SnowSQL
+    - Snowflake Web Interface (UI)
+    - ODBC
+    - Python
 
-   > JDBC
-
-   > SnowSQL
-
-   > Snowflake Web Interface (UI)
-
-   > ODBC
-
-   > Python
-
-10. Which of the following statements describes a benefit of Snowflake's separation of compute and storage? (Choose all that apply.)
-
-    - Growth of storage and compute are tightly coupled together
-    - Storage expands without the requirement to add more compute
-    - Compute can be scaled up or down without the requirement to add more storage
-    - Multiple compute clusters can access stored data without contention
-
-    > Storage expands without the requirement to add more compute
-
-    > Compute can be scaled up or down without the requirement to add more storage
-
-    > Multiple compute clusters can access stored data without contention
+    > All
 
 11. In which layer of its architecture does Snowflake store its metadata statistics?
 
@@ -559,16 +551,7 @@
 
 # Confusion
 
-1. Which of the following roles is recommended to be used to create and manage users and roles?
-
-   - SYSADMIN
-   - SECURITYADMIN
-   - PUBLIC
-   - ACCOUNTADMIN
-
-   > SECURITYADMIN
-
-2. Snowflake is designed for which type of workloads? (Choose two.)
+1. Snowflake is designed for which type of workloads? (Choose two.)
 
    - OLAP (Analytics) workloads
    - OLTP (Transactional) workloads
@@ -579,7 +562,7 @@
 
    > Concurrent workloads
 
-3. Credit Consumption by the Compute Layer (Virtual Warehouses) is based on: (Choose two.)
+2. Credit Consumption by the Compute Layer (Virtual Warehouses) is based on: (Choose two.)
 
    - Number of users
    - Warehouse size
@@ -590,7 +573,7 @@
 
    > no of clusters for the Warehouse
 
-4. Which of the following objects can be cloned? (Choose four.)
+3. Which of the following objects can be cloned? (Choose four.)
 
    - Tables
    - Named File Formats
@@ -607,7 +590,7 @@
 
    > Databases
 
-5. Why would a customer size a Virtual Warehouse from an X-Small to a Medium?
+4. Why would a customer size a Virtual Warehouse from an X-Small to a Medium?
 
    - To accommodate more queries
    - To accommodate more users
@@ -615,6 +598,19 @@
    - To accommodate a more complex workload
 
    > To accommodate a more complex workload
+
+5. Which of the following statements describes a benefit of Snowflake's separation of compute and storage? (Choose all that apply.)
+
+   - Growth of storage and compute are tightly coupled together
+   - Storage expands without the requirement to add more compute
+   - Compute can be scaled up or down without the requirement to add more storage
+   - Multiple compute clusters can access stored data without contention
+
+   > Storage expands without the requirement to add more compute
+
+   > Compute can be scaled up or down without the requirement to add more storage
+
+   > Multiple compute clusters can access stored data without contention
 
 6. Which interfaces can be used to create and/or manage Virtual Warehouses?
 
@@ -708,80 +704,76 @@
 
    > False
 
-5. Reader Accounts incur no additional Compute costs to the Data Provider since they are simply reading the shared data without making changes.
+5. Snowflake charges a premium for storing semi-structured data.
 
    > False
 
-6. Snowflake charges a premium for storing semi-structured data.
-
-   > False
-
-7. It is possible to unload structured data to semi-structured formats such as JSON and Parquet.
+6. It is possible to unload structured data to semi-structured formats such as JSON and Parquet.
 
    > True
 
-8. Data in fail-safe can be deleted by a user or the Snowflake team before it expires.
+7. Data in fail-safe can be deleted by a user or the Snowflake team before it expires.
 
    > False
 
-9. Snowflake's data warehouse was built from the ground up for the cloud in lieu of using an existing database or a platform, like Hadoop, as a base.
+8. Snowflake's data warehouse was built from the ground up for the cloud in lieu of using an existing database or a platform, like Hadoop, as a base.
 
    > True
 
-10. Snowpipe via REST API can only reference External Stages as source.
+9. Snowpipe via REST API can only reference External Stages as source.
 
-    > False
+   > False
 
-11. It is possible to load data into Snowflake without creating a named File Format object.
+10. It is possible to load data into Snowflake without creating a named File Format object.
 
     > True
 
-12. A table in Snowflake can only be queried using the Virtual Warehouse that was used to load the data.
+11. A table in Snowflake can only be queried using the Virtual Warehouse that was used to load the data.
 
     > False
 
-13. When a data share is established between a Data Provider and a Data Consumer, the Data Consumer can extend that data share to other Data
+12. When a data share is established between a Data Provider and a Data Consumer, the Data Consumer can extend that data share to other Data
     Consumers.
 
     > False
 
-14. Micro-partition metadata enables some operations to be completed without requiring Compute.
+13. Micro-partition metadata enables some operations to be completed without requiring Compute.
 
     > True
 
-15. Users are able to see the result sets of queries executed by other users that share their same role.
+14. Users are able to see the result sets of queries executed by other users that share their same role.
 
     > False
 
-16. The user has to specify which cluster a query will run on in a multi-cluster Warehouse.
+15. The user has to specify which cluster a query will run on in a multi-cluster Warehouse.
 
     > False
 
-17. Pipes can be suspended and resumed.
+16. Pipes can be suspended and resumed.
 
     > True
 
-18. Multi-Factor Authentication (MFA) in Snowflake is only supported in conjunction with Single Sign-On (SSO).
+17. Multi-Factor Authentication (MFA) in Snowflake is only supported in conjunction with Single Sign-On (SSO).
 
     > False
 
-19. Some queries can be answered through the metadata cache and do not require an active Virtual Warehouse.
+18. Some queries can be answered through the metadata cache and do not require an active Virtual Warehouse.
 
     > True
 
-20. Each worksheet in the Snowflake Web Interface (UI) can be associated with different roles, databases, schemas, and Virtual Warehouses.
+19. Each worksheet in the Snowflake Web Interface (UI) can be associated with different roles, databases, schemas, and Virtual Warehouses.
 
     > True
 
-21. You can query the files in an External Stage directly without having to load the data into a table.
+20. You can query the files in an External Stage directly without having to load the data into a table.
 
     > True
 
-22. An active warehouse is required to run a COPY INTO statement.
+21. An active warehouse is required to run a COPY INTO statement.
 
     > True
 
-23. AWS Private Link provides a secure connection from the Customer's on-premise data center to the Snowflake.
+22. AWS Private Link provides a secure connection from the Customer's on-premise data center to the Snowflake.
 
     > False
 
@@ -793,25 +785,29 @@
 
 ### Doubt
 
-1. A third-party tool that supports standard JDBC or ODBC but has no Snowflake-specific driver will be unable to connect to Snowflake.
+1. Reader Accounts incur no additional Compute costs to the Data Provider since they are simply reading the shared data without making changes.
+
+   > False
+
+2. A third-party tool that supports standard JDBC or ODBC but has no Snowflake-specific driver will be unable to connect to Snowflake.
 
    > True
 
 ### Doubt
 
-2. Query ID's are unique across all Snowflake deployments and can be used in communication with Snowflake Support to help troubleshoot issues.
+3. Query ID's are unique across all Snowflake deployments and can be used in communication with Snowflake Support to help troubleshoot issues.
 
    > True
 
-3. Snowflake charges additional fees to Data Providers for each Share they create.
+4. Snowflake charges additional fees to Data Providers for each Share they create.
 
    > False
 
-4. When a user creates a role, they are initially assigned ownership of the role and they maintain ownership until it is transferred to another user.
+5. When a user creates a role, they are initially assigned ownership of the role and they maintain ownership until it is transferred to another user.
 
    > False
 
-5. Snowflake's Global Services Layer gathers and maintains statistics on all columns in all micro-partitions.
+6. Snowflake's Global Services Layer gathers and maintains statistics on all columns in all micro-partitions.
 
    > True
 
