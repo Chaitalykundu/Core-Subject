@@ -1,8 +1,9 @@
 # Overview
 
-- Layers
-- Database Storage layer or Data layer
-- Compute layer or Query Processing layer or Virtual Warehouse layer
+- [Overview](#overview)
+- [Layers](#layers)
+- [Database Storage layer or Data layer](#database-storage-layer)
+- [Compute layer or Query Processing layer or Virtual Warehouse layer](#compute-or-query-processing-or-virtual-warehouse-layer)
 - Services layer or Cloud Services layer (Brain of snowflake)
 - How Data Storage layer works
 - How Data Compute layer works
@@ -44,7 +45,7 @@ Each layer can scale independently.
 
 &nbsp;
 
-# Database Storage layer
+# Database Storage layer or Data layer
 
 When data is loaded into Snowflake, Snowflake reorganizes that data into its internal optimized, compressed, columnar format. Snowflake **_stores this optimized data in cloud storage_**.
 

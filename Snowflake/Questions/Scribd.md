@@ -1,0 +1,10 @@
+True or False: A third-party tool that supports standard JDBC or ODBC but has no Snowflake-specific driver will be unable to connect to Snowflake.A. TrueB. FalseAnswer:B
+
+
+Explanation:https://docs.snowflake.com/en/user-guide/jdbc.htmlSnowflake provides a JDBC type 4 driver that supports core JDBC functionality. The JDBC driver must be installed in a 64-bit environment and requires Java 1.8(or higher). The driver can be used with most client tools/applications that support JDBC for connecting to a database server.NEW QUESTION 2- (Exam Topic 1)Select the three types of tables that exist within Snowflake. Choose 3 answersA. TemporaryB. TransientC. ProvisionedD. PermanentAnswer:ABDExplanation:Reference: https://community.snowflake.com/s/article/Making-Transient-table-by-DefaultNEW QUESTION 3- (Exam Topic 1)Which of the following are options when creating a Virtual Warehouse?A. Auto-suspendB. Auto-resumeC. Local SSD sizeD. User countAnswer:ABNEW QUESTION 4- (Exam Topic 1)Which of the following statements is true of Snowflake micro-partitioning?A. Micro-partitioning has been known to introduce data skewB. Micro-partitioning: requires a partitioning schema to be defined up frontC. Micro-partitioning is transparently completed using the ordering that occurs when the data is inserted/loadedD. Micro-partitioning can be disabled within a Snowflake accountAnswer:CExplanation:Reference: https://docs.snowflake.com/en/user-guide/tables-clustering-micropartitions.html
+
+QUESTION 5- (Exam Topic 1)Which of the following are true of multi-cluster Warehouses? Select all that apply below.A. A multi-cluster Warehouse can add clusters automatically based on query activityB. A multi-cluster Warehouse can automatically turn itself off after a period of inactivityC. A multi-cluster Warehouse can scale down when query activity slowsD. A multi-cluster Warehouse can automatically turn itself on when a query is executed against itAnswer:ABCD
+
+
+QUESTION 6- (Exam Topic 1)Which of the following accurately represents how a table fits into Snowflake’s logical container hierarchy? 
+B. Account -> Database -> Schema -> Table
