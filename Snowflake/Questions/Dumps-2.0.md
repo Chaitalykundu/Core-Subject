@@ -4671,30 +4671,344 @@ Based on this configuration what is true of the reader account?
 
     > C. To separate user authentication from user access
 
+845. What will happen if a Snowflake user increases the size of a suspended virtual warehouse?
+
+
+    > C. The provisioning of additional compute resources will be in effect when the warehouse is next resumed.
+
+846. The VALIDATE table function has which parameter as an input argument for a Snowflake user?
+
+
+    > D. JOB_ID
+
+847. Which Snowflake edition supports Protected Health Information (PHI) data (in accordance with HIPAA and HITRUST CSF regulations), and has a dedicated metadata store and pool of compute resources?
+
+
+    > \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* D. Virtual Private Snowflake (VPS)
+
+848. Which Snowflake table types are used to manage costs for short-lived tables? (Choose two.)
+
+
+    > D. Temporary tables
+    > E. Transient tables
+
+849. What are key characteristics of virtual warehouses in Snowflake? (Choose two.)
+
+
+    > B. Warehouses can be started and stopped at any time.
+    > C. Warehouses can be resized at any time, even while running.
+
+850. What strategies can be used to optimize the performance of a virtual warehouse? (Choose two.)
+
+
+    > A. Reduce queuing.
+    > D. Increase the warehouse size.
+
+851. How are privileges inherited in a role hierarchy in Snowflake?
+
+
+    > \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* A. Privileges are inherited by any roles above that role in the hierarchy.
+
+852. At what level can the ALLOW_CLIENT_MFA_CACHING parameter be set?
+
+
+    > A. Account
+
+853. What entity is responsible for hosting and sharing data in Snowflake?
+
+
+    > A. Data provider
+
+854. Which function will provide the proxy information needed to protect Snowsight?
+
+
+    > C. SYSTEM$ALLOWLIST
+
+855. The property MINS_TO_BYPASS_NETWORK_POLICY is set at which level?
+
+
+    > A. User
+
+856. When unloading the data for file format type specified (TYPE = 'CSV'), SQL NULL can be converted to string ‘null’ using which file format option?
+
+
+    > C. NULL_IF
+
+857. Which table function should be used to view details on a Directed Acyclic Graph (DAG) run that is presently scheduled or is executing?
+
+
+    > C. CURRENT_TASK_GRAPHS
+
+858. What Snowflake database object is derived from a query specification, stored for later use, and can speed up expensive aggregation on large data sets?
+
+
+    > D. Materialized view
+
+859. User1, who has the SYSADMIN role, executed a query on Snowsight. User2, who is in the same Snowflake account, wants to view the result set of the query executed by User1 using the Snowsight query history. What will happen if User2 tries to access the query history?
+
+
+    > D. User2 will be unable to view the result set of the query executed by User1
+
+860. A permanent table and temporary table have the same name, TBL1, in a schema.
+
+What will happen if a user executes select \* from TBL1;?
+
+    > A. The temporary table will take precedence over the permanent table.
+
+861. The effects of query pruning can be observed by evaluating which statistics? (Choose two.)
+
+
+    > A. Partitions scanned
+    > B. Partitions total
+
+862. Which data types optimally store semi-structured data? (Choose two.)
+
+
+    > A. ARRAY
+    > E. VARIANT
+
+863. What compute resource is used when loading data using Snowpipe?
+
+
+    > C. Snowpipe uses compute resources provided by Snowflake.
+
 864. Which file function gives a user or application access to download unstructured data from a Snowflake stage?
 
 
     > \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* A. BUILD_SCOPED_FILE_URL or  C. GET_PRESIGNED_URL
+
+865. By default, which role can create resource monitors?
+
+
+    > A. ACCOUNTADMIN
+
+866. Which DDL/DML operation is allowed on an inbound data share?
+
+
+    > \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* D. SELECT
+
+867. Which types of charts does Snowsight support? (Choose two.)
+
+
+    > A. Area charts
+    > E. Scorecards
 
 868. Which role in Snowflake allows a user to enable replication for multiple accounts?
 
 
     > D. ORGADMIN
 
+869. Which Snowflake tool is recommended for data batch processing?
+
+
+    > \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*B. SnowSQL
+
+870. Which Snowflake mechanism is used to limit the number of micro-partitions scanned by a query?
+
+
+    > C. Query pruning
+
+871. While clustering a table, columns with which data types can be used as clustering keys? (Choose two.)
+
+
+    > A. BINARY
+    > C. GEOMETRY
+
+872. Which use case does the search optimization service support?
+
+
+    > D. Conjunctions (AND) of multiple equality predicates
+
+873. What should be used when creating a CSV file format where the columns are wrapped by single quotes or double quotes?
+
+
+    > C. FIELD_OPTIONALLY_ENCLOSED_BY
+
+874. If a multi-cluster warehouse is using an economy scaling policy, how long will queries wait in the queue before another cluster is started?
+
+
+    > C. 6 minutes
+
+875. What does the TableScan operator represent in the Query Profile?
+
+
+    > A. The access to a single table
+
+876. What information is found within the Statistic output in the Query Profile Overview?
+
+
+    > \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* B. Table pruning
+
+877. Which roles can make grant decisions to objects within a managed access schema? (Choose two.)
+
+
+    > A. ACCOUNTADMIN
+    > B. SECURITYADMIN
+
+878. How can a Snowflake user post-process the result of SHOW FILE FORMATS?
+
+
+    > A. Use the RESULT_SCAN function.
+
+879. A Snowflake account administrator has set the resource monitors as shown in the diagram, with actions defined for each resource monitor as “Notify & Suspend Immediately”. What is the MAXIMUM limit of credits that Warehouse 2 can consume?
+
+
+    > D. 5000
+
+880. When initially creating an account in Snowflake, which settings can be specified? (Choose two.)
+
+
+    > D. Region
+    > E. Snowflake edition
+
+881. What activities can a user with the ORGADMIN role perform? (Choose two.)
+
+
+    > A. Create an account for an organization.
+    > D. View usage information for all accounts in an organization.
+
+882. What is one of the benefits of using a multi-cluster virtual warehouse?
+
+
+    > D. It will automatically start and stop additional clusters as needed
+
+883. When should a multi-cluster virtual warehouse be used in Snowflake?
+
+
+    > A. When queuing is delaying query execution on the warehouse
+
+884. What is used to denote a pre-computed data set derived from a SELECT query specification and stored for later use?
+
+
+    > C. Materialized view
+
+885. A Snowflake user wants to temporarily bypass a network policy by configuring the user object property MINS_TO_BYPASS_NETWORK_POLICY. What should they do?
+
+
+    > D. Contact Snowflake Support.
+
+886. What is the default access of a securable object until other access is granted?
+
+
+    > A. No access
+
 887. From what stage can a Snowflake user omit the FROM clause while loading data into a table?
 
 
     > B. The table stage
+
+888. What is used during the FIRST execution of SELECT COUNT(\*) FROM ORDER?
+
+
+    > D. Metadata-based result
+
+889. What is the purpose of a resource monitor in Snowflake?
+
+
+    > D. To control costs and credit usage by virtual warehouses
+
+890. Which data formats are supported by Snowflake when unloading semi-structured data? (Choose two.)
+
+
+    > B. Binary file in Parquet
+    > D. Newline Delimited JSON
+
+891. In Snowflake, the use of federated authentication enables which Single Sign-On (SSO) workflow activities? (Choose two.)
+
+
+    > C. Logging into Snowflake
+    > D. Logging out of Snowflake
+
+892. What does the worksheet and database explorer feature in Snowsight allow users to do?
+
+
+    > B. Move a worksheet to a folder or a dashboard.
+
+893. When unloading data from Snowflake to AWS, what permissions are required? (Choose two.)
+
+
+    > A. s3:DeleteObject
+    > D. s3:PutObject
+
+894. What step can reduce data spilling in Snowflake?
+
+
+    > A. Using a larger virtual warehouse
+
+895. Which user preferences can be set for a user profile in Snowsight? (Choose two.)
+
+
+    > A. Multi-Factor Authentication (MFA)
+    > D. Notifications
+    > \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+896. What privilege is needed for a Snowflake user to see the definition of a secure view?
+
+
+    > A. OWNERSHIP
+
+897. What general guideline does Snowflake recommend when setting the auto-suspension time limit?
+
+
+    > \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* B. Set tasks for suspension after 5 minutes.
+
+898. When does Snowflake automatically encrypt data that is loaded into Snowflake? (Choose two.)
+
+
+    > B. After loading the data into a table.
+    > C. After loading the data into an internal stage.
+
+899. When data is loaded into Snowflake, what formats does Snowflake use internally to store the data in cloud storage? (Choose two.)
+
+
+    > B. Columnar
+    > E. Compressed
+
+900. What do temporary and transient tables have in common in Snowflake? (Choose two.)
+
+
+    > A. Both tables have no Fail-safe period.
+    > B. Both tables have data retention period maximums of one day.
+
+901. What are the least privileges needed to view and modify resource monitors? (Choose two.)
+
+
+    > C. MONITOR
+    > D. MODIFY
+    > \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 902. When does a materialized view get suspended in Snowflake?
 
 
     > B. When a column is dropped from the base table
 
+903. What happens when a Snowflake user changes the data retention period at the schema level?
+
+
+    > B. All child objects that do not have an explicit retention period will automatically inherit the new retention period
+
+904. Snowpark provides libraries for which programming languages? (Choose two.)
+
+
+    > B. Python
+    > C. Scala
+
+905. How can a Snowflake user sample 10 rows from a table named SNOWPRO? (Choose two.)
+
+
+    > B. SELECT * FROM SNOWPRO TABLESAMPLE (10 ROWS)
+    > E. SELECT * FROM SNOWPRO SAMPLE BERNOULLI (10 ROWS)
+    > \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
 906. Why would a Snowflake user choose to use a transient table?
 
 
     > D. To store transitory data that needs to be maintained beyond the session
+
+907. What does a masking policy consist of in Snowflake?
+
+
+    > A. A single data type, with one or more conditions, and one or more masking functions
 
 908. What actions can be performed by a consumer account on a shared database? (Choose two.)
 
@@ -4703,10 +5017,20 @@ Based on this configuration what is true of the reader account?
 
     > E. Joining the data from a shared table with another table
 
+909. What data type is used to ingest semi-structured data into a Snowflake table?
+
+
+    > D. VARIANT
+
+910. Which security feature is used to connect or log in to a Snowflake account?
+
+
+    > \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* D. Key pair authentication
+
 920. What type of account can be used to share data with a consumer who does not have a Snowflake account?
 
 
-    > \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* A. Data provider
+    > \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* A. Data provider or C. Reader
 
 924. A Snowflake user is trying to load a 125 GB file using SnowSQL. The file continues to load for almost an entire day. What will happen at the 24-hour mark?
 
@@ -4826,6 +5150,16 @@ Based on this configuration what is true of the reader account?
 
     > D. External tables
 
+1081. What is the order of precedence (highest to lowest) of network policies when applied at the account, user, and security integrations layers?
+
+
+    > C. User, security integration, account
+
+1174. A network policy applied at the user level takes precedence over a network policy applied to what Snowflake object?
+
+
+    > B. An account
+
 1116. What can be used to process unstructured data?
 
 
@@ -4847,6 +5181,11 @@ Based on this configuration what is true of the reader account?
     > A. The edition will impact the unit costs for storage.
 
     > C. The edition will determine the unit costs for the compute credits.
+
+1193. What happens to foreign key constraints when a table is cloned to another database?
+
+
+    > C. The cloned table will lose all references to the primary key.
 
 1197. A query is using more credits than expected. The Query Profile shows that a majority of the query execution is spent on remote disk I/O. How can this be prevented in the future?
 
