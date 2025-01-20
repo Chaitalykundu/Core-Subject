@@ -1,7 +1,8 @@
 # Overview
 
-- Lifecycle of a Query or Workload
-- Role of User and Snowflake
+- [Overview](#overview)
+- [Lifecycle of a Query or Workload](#lifecycle-of-a-query-or-workload)
+- [Role of User and Snowflake](#role-of-user-and-snowflake)
 
 &nbsp;
 

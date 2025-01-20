@@ -1,13 +1,17 @@
 # Overview
 
 - [Overview](#overview)
+- [Note](#note)
 - [Layers](#layers)
-- [Database Storage layer or Data layer](#database-storage-layer)
-- [Compute layer or Query Processing layer or Virtual Warehouse layer](#compute-or-query-processing-or-virtual-warehouse-layer)
-- Services layer or Cloud Services layer (Brain of snowflake)
-- How Data Storage layer works
-- How Data Compute layer works
-- How Data Cloud Services layer works
+- [Database Storage layer or Data layer](#database-storage-layer-or-data-layer)
+    - [Key points](#key-points)
+- [Compute or Query Processing or Virtual Warehouse layer](#compute-or-query-processing-or-virtual-warehouse-layer)
+    - [Key points](#key-points-1)
+- [Services or Cloud Services layer](#services-or-cloud-services-layer)
+    - [Services managed in this layer include](#services-managed-in-this-layer-include)
+- [How Data Storage layer works](#how-data-storage-layer-works)
+- [How Compute layer works](#how-compute-layer-works)
+- [How Cloud Service layer works](#how-cloud-service-layer-works)
 
 &nbsp;
 

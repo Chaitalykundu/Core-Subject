@@ -1,15 +1,17 @@
 # Overview
 
-- Traditional Data Warehouse Architecture
-- Shared Disk Architecture
-  - Key points on Shared Disk Architecture
-  - Advantages
-  - Disadvantages
-- Shared Nothing Architecture
-  - Key points on Shared Nothing Architecture
-  - Advantages
-  - Disadvantages
-- Difference between Shared Disk Architecture and Shared Nothing Architecture
+- [Overview](#overview)
+- [Traditional Data Warehouse Architecture](#traditional-data-warehouse-architecture)
+  - [Note](#note)
+- [Shared Disk Architecture](#shared-disk-architecture)
+    - [Key points on Shared Disk Architecture](#key-points-on-shared-disk-architecture)
+  - [Advantages](#advantages)
+  - [Disadvantages](#disadvantages)
+- [Shared nothing architecture](#shared-nothing-architecture)
+    - [Key points on Shared nothing Architecture](#key-points-on-shared-nothing-architecture)
+  - [Advantages](#advantages-1)
+  - [Disadvantages](#disadvantages-1)
+- [Difference between Shared Disk Architecture and Shared Nothing Architecture](#difference-between-shared-disk-architecture-and-shared-nothing-architecture)
 
 &nbsp;
 
