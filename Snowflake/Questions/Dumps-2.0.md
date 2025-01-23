@@ -5712,9 +5712,56 @@ How will Snowflake extract the employee’s name from the column data?
 
     > E. User-Defined Functions (UDFs)
 
+1154. What is the MINIMUM Snowflake edition required to use the column-level security feature?
+
+    > B. Enterprise
+
 1155. Which command should be used to assign a key to a Snowflake user who needs to connect using key pair authentication?
 
     > D. ALTER USER jsmith SET RSA_PUBLIC_KEY='MIIBIjANBgkqh...';
+
+1156. Secured Data Sharing is allowed for which Snowflake database objects? (Choose two.)
+
+    > A. Tables
+    > C. Secure views
+
+1157. What optional properties can a Snowflake user set when creating a virtual warehouse? (Choose two.)
+
+    > A. Auto-suspend
+    > D. Resource monitor
+
+1158. What is the purpose of the use of the VALIDATE command?
+
+    > D. To see all errors from a previously run COPY INTO [table] statement
+
+1159. Which function is used to unload a relational table into a JSON file?
+
+    > \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* D. TO_JSON
+
+1160. How can the ACCESS_HISTORY view in the ACCOUNT_USAGE schema be used to review the data governance settings for an account? (Choose two.)
+
+    > A. Identify queries run by a particular user.
+    > D. Identify objects that were modified by a query.
+
+1161. Which command is used to unload data from a Snowflake table into a Snowflake stage?
+
+    > C. COPY INTO [location]
+
+1162. What should an account administrator do to help a user log into Snowflake, if the user cannot authenticate using Multi-Factor Authentication (MFA)?
+
+    > A. Set DISABLE_MFA to TRUE for the user.
+
+1163. Which command can be executed from a reader account?
+
+    > D. COPY INTO [location]
+
+1164. Which command line parameter value can be pre-specified as an environment variable in SnowSQL?
+
+    > A. HOST
+
+1166. Which Snowflake feature improves the performance of point lookup queries?
+
+    > D. Search optimization service
 
 1167. What is the impact of selecting one Snowflake edition over another? (Choose two.)
 
@@ -5722,4 +5769,92 @@ How will Snowflake extract the employee’s name from the column data?
 
     > C. The edition will determine the unit costs for the compute credits.
 
-/////////////////////////////////////////////////////////////
+1169. A Snowflake user wants to design a series of transformations that need to be executed in a specific order, on a given schedule. What Snowflake objects should be used?
+
+    > B. Tasks
+
+1170. Which command should be used to drop files from an internal or external stage?
+
+    > C. REMOVE
+
+1174. A network policy applied at the user level takes precedence over a network policy applied to what Snowflake object?
+
+    > B. An account
+
+1175. Which Snowflake storage object can be used to store data beyond a single session and will not incur Fail-safe costs?
+
+    > D. Transient table
+
+1177. What metrics will the SHOW TABLES command in Snowsight provide?
+
+    > B. Active bytes
+
+1178. An external stage, my_stage contains many directories, including one, app_files that contains CSV files. How can all the CSV files from this directory be moved into table my_table without scanning files that are not needed?
+
+    > B. COPY INTO my_table FROM @my_stage/app_files PATTERN='.*[.]csv';
+
+1179. Using which object-level parameters will help limit query processing and concurrency slowdowns? (Choose two.)
+
+    > B. ENABLE_QUERY_ACCELERATION
+    > E. QUERY_ACCELERATION_MAX_SCALE_FACTOR
+
+1181. Which function will convert semi-structured data to a relational data representation?
+
+    > B. FLATTEN
+
+1182. What triggers the automated maintenance of a table's clustering key after it has been defined?
+
+    > D. A Snowflake determination that the table will benefit from maintenance.
+
+1183. Which Snowflake object will consume credits during automatic background maintenance?
+
+    > D. Materialized view
+
+1184. Snowflake users can create a resource monitor at which levels? (Choose two.)
+
+    > C. Account level
+    > E. Virtual warehouse level
+
+1185. Which Snowflake objects can be secured to protect data privacy? (Choose two.)
+
+    > C. Views
+    > D. Materialized views
+
+1187. Which resource monitor setting will cancel all active queries in a virtual warehouse when the threshold is met?
+
+    > D. SUSPEND_IMMEDIATE
+
+1188. What role should be used when creating a new user?
+
+    > C. USERADMIN
+
+1189. Which ACCOUNT_USAGE view will identify long-running queries?
+
+    > C. QUERY_HISTORY
+
+1190. When sharing data among multiple Snowflake accounts, what charges are incurred by a data consumer when viewing shared data using their own account?
+
+    > B. Compute charges
+
+1194. What step must be taken to ensure that a user can only access Snowsight from a specific location, or when working from home?
+
+    > D. Add the user's IP address to the network policy allowed list.
+
+1195. What actions will trigger a data pipe to load? (Choose two.)
+
+    > C. Use of the insertFiles REST endpoint
+    > E. Set the pipe parameter to auto-ingest
+
+1196. What does a Query Profile metric that shows excessive spillage indicate?
+
+    > A. Poor query optimization
+
+1198. In a SPLIT_PART function, what will the returned value be if the partNumber is out of range?
+
+    > B. An empty string
+
+1200. What Snowflake features are recommended to restrict unauthorized users from accessing Personal Identifiable Information (PI)? (Choose two.)
+
+    > A. Dynamic Data Masking
+    > C. Secure views
+
