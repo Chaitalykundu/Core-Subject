@@ -138,6 +138,8 @@
 
     > \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* All are right. But A, B are given
 
+    > **Final ANS : ALL**
+
 27. The PUT command: (Choose two.)
 
     > C. Automatically compresses files using Gzip
@@ -5104,6 +5106,41 @@ GRANT [privilege] ON [object] [object_name] TO SHARE [share_name];
 
     > C. The file loading could be aborted without any portion of the file being committed.
 
+925. What information does the Query Profile provide?
+
+
+    > B. Statistics for each component of the processing plan
+
+926. Which command is used to start configuring Snowflake for Single Sign-On (SSO)?
+
+
+    > C. CREATE SECURITY INTEGRATION
+
+927. Which sequence (order) of object privileges should be used to grant a custom role read-only access on a table?
+
+> C
+
+| Object   | privilege |
+| -------- | --------- |
+| Database | Usage     |
+| Schema   | Usage     |
+| Table    | Select    |
+
+928. Which command removes a role from another role or a user in Snowflake?
+
+
+    > B. REVOKE ROLE
+
+929. In which hierarchy is tag inheritance possible?
+
+
+    > D. Schema » Table » Column
+
+930. What happens when a network policy includes values that appear in both the allowed and blocked IP address lists?
+
+
+    > B. Those IP addresses are denied access to the Snowflake account as Snowflake applies the blocked IP address list first. Most Voted
+
 931. For directory tables, what stage allows for automatic refreshing of metadata?
 
 
@@ -5114,6 +5151,18 @@ GRANT [privilege] ON [object] [object_name] TO SHARE [share_name];
 
     > C. COPY INTO `[location]`
 
+933. Any user with the appropriate privileges can view data storage for individual tables by using which queries? (Choose two.)
+
+
+    > B. TABLE_STORAGE_METRICS view in the ACCOUNT_USAGE schema
+    > D. TABLE_STORAGE_METRICS view in the INFORMATION_SCHEMA schema
+
+934. A user created a database and set the DATA_RETENTION_TIME_IN_DAYS to 30, but did not set the DATA_RETENTION_TIME_IN_DAYS in table T1. After 5 days, the user accidentally drops table T1.
+
+What are the considerations for recovering table T1?
+
+    > > \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* B. The table can be recovered because the table retention period default is at the database level.
+
 935. What table functions in the Snowflake Information Schema can be queried to retrieve information about directory tables? (Choose two.)
 
 
@@ -5121,37 +5170,193 @@ GRANT [privilege] ON [object] [object_name] TO SHARE [share_name];
 
     > E. STAGE_DIRECTORY_FILE_REGISTRATION_HISTORY
 
+    > \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
 936. Which Snowflake table type persists until it is explicitly dropped, is available for all users with relevant privileges (across sessions), and has no Fail-safe period?
 
 
     > D. Transient
+
+937. Snowflake’s access control framework combines which models for securing data? (Choose two.)
+
+
+    > B. Discretionary Access Control (DAC)
+    > D. Role-based Access Control (RBAC)
+
+938. Which semi-structured file format is a compressed, efficient, columnar data representation?
+
+
+    > D. Parquet
 
 939. How does Snowflake describe its unique architecture?
 
 
     > B. A multi-cluster shared data architecture using a central data repository and massively parallel processing (MPP)
 
+940. Which data type can be used to load semi-structured data files directly, without explicitly describing the hierarchical structure of the data?
+
+
+    > B. VARIANT
+
+941. The following settings are configured:
+
+THE MIN_DATA_RETENTION_TIME_IN_DAYS is set to 5 at the account level.
+THE DATA_RETENTION_TIME_IN_DAYS is set to 2 at the object level.
+
+For how many days will the data be retained at the object level?
+
+    > C. 5
+
+942. Which key access control concept does Snowflake describe as a defined level of access to an object?
+
+
+    > B. Privilege
+
+943. Which Snowflake object uses credits for maintenance?
+
+
+    > C. Materialized view
+
+944. How many credits does a size 3X-Large virtual warehouse consume if it runs continuously for 2 hours?
+
+
+    > C. 128
+
+945. What is the purpose of a Query Profile?
+
+
+    > B. To profile a particular query to understand the mechanics of the query, its behavior, and performance.
+
+946. Which common query problems are identified by the Query Profile? (Choose two.)
+
+
+    > B. Inefficient pruning
+    > D. Queries too large to fit in memory
+
+947. While running a query on a virtual warehouse in auto-scale mode, additional clusters are started immediately if which setting is configured?
+
+
+    > \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* C. MIN_CLUSTER_COUNT is increased and new_min_clusters is greater than running_clusters
+
+948. Which Snowflake role can manage any object grant globally, including modifying and revoking grants?
+
+
+    > D. SECURITYADMIN
+
+949. What is the MINIMUM permission needed to access a file URL from an external stage?
+
+
+    > D. USAGE
+
+950. In the Data Exchange, who can get or request data from the listings? (Choose two.)
+
+
+    > A. Users with ACCOUNTADMIN role
+    > D. Users with IMPORT SHARE privilege
+
 951. What does Snowflake attempt to do if any of the compute resources for a virtual warehouse fail to provision during start-up?
 
 
     > A. Repair the failed resources.
+
+952. How does Snowflake define its approach to Discretionary Access Control (DAC)?
+
+
+    > C. Each object has an owner, who can in turn grant access to that object.
+
+953. Which command is used to take away staged files from a Snowflake stage after a successful data ingestion?
+
+
+    > C. REMOVE
 
 954. The Snowflake VARIANT data type imposes a 16 MB size limit on what?
 
 
     > A. An individual row
 
+955. Which Snowflake feature records changes made to a table so actions can be taken using that change data capture?
+
+
+    > C. Stream
+
 956. Which system-defined, read-only view displays information on column lineage that specifies how data flows from source to target in a SQL write operation?
 
 
     > A. ACCESS_HISTORY
+
+957. Who can create network policies within Snowflake? (Choose two.)
+
+
+    > C. SECURITYADMIN or higher roles
+    > D. A role with the CREATE NETWORK POLICY privilege
+
+958. Who can grant object privileges in a regular schema?
+
+
+    > A. Object owner
 
 959. Which command can be used to list all the file formats for which a user has access privileges?
 
 
     > D. SHOW FILE FORMATS
 
-872. How can the Query Profile be used to identify the costliest operator of a query?
+960. Which Snowflake feature supports continuous, serverless data loading into tables as soon as new data arrives?
+
+
+    > D. Snowpipe
+
+962. Regardless of which notation is used, what are considerations for writing the column name and element names when traversing semi-structured data?
+
+
+    > D. The column name is case-insensitive but element names are case-sensitive.
+
+963. Which Snowflake data type is used to store JSON key value pairs?
+
+
+    > D. VARIANT
+
+964. How are network policies defined in Snowflake?
+
+
+    > D. They are a set of rules that control access to Snowflake accounts by specifying the IP addresses or ranges of IP addresses that are allowed to connect to Snowflake.
+
+965. What is the only supported character set for loading and unloading data from all supported file formats?
+
+
+    > A. UTF-8
+
+966. Which function is used to convert rows in a relational table to a single VARIANT column?
+
+
+    > D. OBJECT_CONSTRUCT
+
+967. Which command can be used to delete staged files from a Snowflake stage when the files are no longer needed?
+
+
+    > C. REMOVE
+
+968. A virtual warehouse initially suffers from poor performance as a result of queries from multiple concurrent processes that are queuing. Over time, the problem resolved.
+
+What action can be taken to prevent this from happening again?
+
+    > C. Change the multi-cluster settings to add additional clusters.
+
+969. What action can be performed using the GET command in Snowflake?
+
+
+    > C. Download data files from Snowflake internal stages to a local directory/folder.
+
+970. Which validation option is the only one that supports the COPY INTO [location] command?
+
+
+    > A. RETURN_ROWS
+
+971. What are the correct settings for column and element names, regardless of which notation is used while accessing elements in a JSON object?
+
+
+    > D. The column name is case-insensitive and the element name is case-sensitive.
+
+972. How can the Query Profile be used to identify the costliest operator of a query?
 
 
     > B. Find the operator node with the highest fraction of time or percentage of total time.
@@ -5161,7 +5366,138 @@ GRANT [privilege] ON [object] [object_name] TO SHARE [share_name];
 
     > D. ORGADMIN
 
-999. How does Snowflake handle the data retention period for a table if a stream has not been consumed?
+974. Which statistics are displayed in a Query Profile that indicate that intermediate results do not fit in memory? (Choose two.)
+
+
+    > C. Bytes spilled to local storage
+    > D. Bytes spilled to remote storage
+
+975. How can a dropped internal stage be restored?
+
+
+    > D. Recreate the dropped stage.
+
+976. Which command line flags can be used to log into a Snowflake account using SnowSQL? (Choose two.)
+
+
+    > A. -d
+    > D. -a
+
+977. What is a key benefit of using organizations in Snowflake?
+
+
+    > C. Ability to consolidate account management and billing
+
+978. Which privilege is required on a virtual warehouse to abort any existing executing queries?
+
+
+    > B. OPERATE
+
+979. Which command should be used to look into the validity of an XML object in Snowflake?
+
+
+    > D. CHECK_XML
+
+980. Who can activate a network policy for users in a Snowflake account? (Choose two.)
+
+
+    > A. ACCOUNTADMIN
+    > E. Any role that has the global ATTACH POLICY privilege
+
+981. For which use cases is running a virtual warehouse required? (Choose two.)
+
+
+    > B. When loading data into a table
+    > C. When unloading data from a table
+
+982. What action should be taken if a Snowflake user wants to share a newly created object in a database with consumers?
+
+
+    > D. Use the GRANT privilege ... TO SHARE command to grant the necessary privileges.
+
+983. Which Snowflake privilege is required on a pipe object to pause or resume pipes?
+
+
+    > A. OPERATE
+
+984. Which commands can a Snowflake user execute to specify a cluster key for a table? (Choose two.)
+
+
+    > A. CREATE
+    > C. ALTER
+
+985. Authorization to execute CREATE [object] statements comes only from which role?
+
+
+    > A. Primary role
+
+986. Which VALIDATION_MODE value will return the errors across the files specified in a COPY command, including files that were partially loaded during an earlier load?
+
+
+    > D. RETURN_ALL_ERRORS
+
+987. Which command is used to upload data files from a local directory or folder on a client machine to an internal stage, for a specified table?
+
+
+    > B. PUT
+
+988. Which governance feature is supported by all Snowflake editions?
+
+
+    > D. OBJECT_DEPENDENCIES view
+
+989. Which chart type is supported in Snowsight for Snowflake users to visualize data with dashboards?
+
+
+    > C. Heat grid
+
+990. At what level is the MIN_DATA_RETENTION_TIME_IN_DAYS parameter set?
+
+
+    > A. Account
+
+991. Which function returns an integer between 0 and 100 when used to calculate the similarity of two strings?
+
+
+    > B. JAROWINKLER_SIMILARITY
+
+992. Which Snowflake data governance feature can support auditing when a user query reads column data?
+
+
+    > A. Access History
+
+993. Which categories are included in the execution time summary in a Query Profile? (Choose two.)
+
+
+    > C. Initialization
+    > D. Local Disk I/O
+
+994. Which command can be used to list all network policies available in an account?
+
+
+    > D. SHOW NETWORK POLICIES
+
+995. Which type of loop requires a BREAK statement to stop executing?
+
+
+    > B. LOOP
+
+996. Which virtual warehouse consideration can help lower compute resource credit consumption?
+
+
+    > C. Automating the virtual warehouse suspension and resumption settings
+
+997. To use the OVERWRITE option on INSERT, which privilege must be granted to the role?
+
+
+    > B. DELETE
+
+998. What happens when a suspended virtual warehouse is resized in Snowflake?
+
+
+    > D. The additional compute resources are provisioned when the warehouse is resumed.
+
+999.  How does Snowflake handle the data retention period for a table if a stream has not been consumed?
 
 
     > C. The data retention period is temporarily extended to the stream’s offset.
@@ -6775,4 +7111,11 @@ Which step will accelerate the model training?
 
     > B. Using the query acceleration service
 
-/////////////// remaining - 935
+1351. Which schema-level objects allow the user to periodically perform an action under specific conditions, based on data within Snowflake?
+
+    > A. Alerts
+
+
+1352. Which privilege must be granted to show data categories in a Data Exchange?
+
+    > A. MONITOR PRIVILEGE
