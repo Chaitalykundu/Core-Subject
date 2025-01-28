@@ -129,6 +129,8 @@
 
             > **Final ANS : ALL**
 
+    > **Final ANS : ALL**
+
 27. The PUT command: (Choose two.)
 
             > C. Automatically compresses files using Gzip
