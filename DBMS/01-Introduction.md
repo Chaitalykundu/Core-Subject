@@ -1,17 +1,20 @@
-# Ovreview
+# Overview
 
-- Data
-- Information
-- Database
-- DBMS
-- DBM
-- DBS
+- [Overview](#overview)
+- [Data : (raw entity)](#data--raw-entity)
+- [Information](#information)
+- [Database](#database)
+- [DBMS](#dbms)
+- [DBM](#dbm)
+- [DataBase System (DBS)](#database-system-dbs)
 
 &nbsp;
 
 &nbsp;
 
-## Data : (raw entity)
+&nbsp;
+
+# Data : (raw entity)
 
 - Data is the collection of a distinct small unit of info
 - Raw facts, figures, statics etc having no particular meaning are data
@@ -19,19 +22,19 @@
 
 &nbsp;
 
-## Information
+# Information
 
 - Meaningful, processed and usable data is called information
 
 &nbsp;
 
-## Database
+# Database
 
 - Collection of similar or related data
 
 &nbsp;
 
-## DBMS
+# DBMS
 
 - DBMS is a software application used to create, manipulate or delete database
 
@@ -39,13 +42,13 @@
 
 &nbsp;
 
-## DBM
+# DBM
 
 - Inserting, deleting, sorting etc operations are called DBM
 
 &nbsp;
 
-## DataBase System (DBS)
+# DataBase System (DBS)
 
 - When we install the software in hardware it's called DBS.
 
