@@ -13,7 +13,7 @@
 
 # Database
 
-Database is a **collection of similar and organized data**
+Database is a **collection of similar and organized data** in a format that can be easily accessed.
 
 &nbsp;
 

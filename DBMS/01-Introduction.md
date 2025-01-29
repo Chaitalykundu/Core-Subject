@@ -15,7 +15,7 @@
 
 - Data is the collection of a distinct small unit of info
 - Raw facts, figures, statics etc having no particular meaning are data
-- Ex : text, image vudio, video, map etc
+- Ex : text, image, audio, video, map etc
 
 &nbsp;
 
@@ -33,7 +33,9 @@
 
 ## DBMS
 
-- DBMS is a software used to create, manipulate or delete database
+- DBMS is a software application used to create, manipulate or delete database
+
+- It provides an organized way to interact with databases and ensures data consistency, security, and integrity.
 
 &nbsp;
 
