@@ -1,3 +1,15 @@
+# Overview
+
+- [Overview](#overview)
+  - [Database Tables](#database-tables)
+  - [Semicolon after SQL Statements](#semicolon-after-sql-statements)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ## Database Tables
 
 - A database most often contains one or more tables.

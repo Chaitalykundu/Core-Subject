@@ -1,11 +1,14 @@
 # Overview
 
-- Database
-- Types of Database
-- What is SQL
-- Use of SQL
-- What Can SQL do
-- Using SQL in Your Web Site
+- [Overview](#overview)
+- [Database](#database)
+  - [Types of Database](#types-of-database)
+- [What is SQL?](#what-is-sql)
+  - [Use of SQL](#use-of-sql)
+  - [What Can SQL do?](#what-can-sql-do)
+  - [Features of SQL](#features-of-sql)
+  - [Using SQL in Your Web Site](#using-sql-in-your-web-site)
+  - [How data is stored](#how-data-is-stored)
 
 &nbsp;
 
