@@ -1,7 +1,8 @@
 # Overview
 
-- What is pgadmin
-- Difference between PostgreSQL and pgadmin
+- [Overview](#overview)
+- [What is pgAdmin](#what-is-pgadmin)
+- [Difference between PostgreSQL and pgadmin](#difference-between-postgresql-and-pgadmin)
 
 &nbsp;
 
@@ -9,9 +10,9 @@
 
 &nbsp;
 
-# What is pgadmin
+# What is pgAdmin
 
-- **pgadmin** is a free and open source administration and development platform for managing PostgreSQL databases.
+- **pgAdmin** is a free and open source administration and development platform for managing PostgreSQL databases.
 
 - It is widely used as a primary tool for PostgreSQL database administration.
 
