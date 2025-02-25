@@ -3,7 +3,7 @@
 - [Overview](#overview)
 - [Categories of SQL command](#categories-of-sql-command)
 - [SQL Commands](#sql-commands)
-  - [Some of The Most Important SQL Commands](#some-of-the-most-important-sql-commands)
+- [Some of The Most Important SQL Commands](#some-of-the-most-important-sql-commands)
 
 &nbsp;
 
@@ -13,11 +13,8 @@
 
 # Categories of SQL command
 
-- DDL ( Data Definition Language)
-- DML ( Data Manipulation Language)
-- DCL ( Data Control Language)
-- DQL ( Data Query Language)
-- TCL ( Transaction Control Language)
+-
+
 
 &nbsp;
 
@@ -34,11 +31,12 @@
 | COMMENT  | CALL         |        |        |                 |
 | RENAME   | EXPLAIN PLAN |        |        |                 |
 |          | LOCK TABLE   |        |        |                 |
-|          |              |        |        |                 |
 
 &nbsp;
 
-## Some of The Most Important SQL Commands
+&nbsp;
+
+# Some of The Most Important SQL Commands
 
 - SELECT - extracts data from a database
 - UPDATE - updates data in a database
