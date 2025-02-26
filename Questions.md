@@ -38,6 +38,7 @@
 
 1. What is Database
 2. In which format we can organize data in a database
+3. What are the purposes of database
 
 &nbsp;
 

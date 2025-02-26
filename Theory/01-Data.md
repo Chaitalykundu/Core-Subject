@@ -2,6 +2,8 @@
 
 - [Overview](#overview)
 - [Data : (raw entity)](#data-raw-entity)
+- [Types of Database](#types-of-database)
+- [Difference Between Structured and Unstructured Data](#difference-between-structured-and-unstructured-data)
 - [Information](#information)
 - [Database](#database)
 - [DBMS](#dbms)
@@ -24,9 +26,38 @@
 
 &nbsp;
 
+# Types of Database
+
+There are mainly **two** types of data.
+
+1. Structured Data
+2. Unstructured Data
+
+&nbsp;
+
+&nbsp;
+
+# Difference Between Structured and Unstructured Data
+
+| Feature     | Structured Data                                                        | Unstructured Data                                       |
+| ----------- | ---------------------------------------------------------------------- | ------------------------------------------------------- |
+| Definition  | Organized data stored in a fixed format (e.g., tables, rows, columns). | Data without a predefined format or structure.          |
+| Storage     | Stored in relational databases (RDBMS) like MySQL, PostgreSQL.         | Stored in NoSQL databases, data lakes, or file systems. |
+| Format      | Tabular (e.g., SQL tables, spreadsheets).                              | Text, images, videos, emails, social media posts.       |
+| Processing  | Easily searchable using SQL queries.                                   | Requires AI, NLP, or data mining for analysis.          |
+| Flexibility | Rigid structure, difficult to modify schema.                           | Highly flexible and scalable.                           |
+| Examples    | Customer records, sales data, employee details.                        | Social media posts, medical images, sensor data         |
+|             |                                                                        |                                                         |
+
+&nbsp;
+
+&nbsp;
+
 # Information
 
 - Meaningful, processed and usable data is called information.
+
+&nbsp;
 
 &nbsp;
 
@@ -52,7 +83,7 @@
 
 # DBM
 
-- Inserting, deleting, sorting etc operations are called DBM
+- DBM refers to managing database by performing some operations like inserting, deleting, sorting etc.
 
 &nbsp;
 

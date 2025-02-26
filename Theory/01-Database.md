@@ -28,9 +28,8 @@
 
 - to create a large amount of information by storing, retrieving and managing data
 - Easily accessed
-- Modified
-- Protected
-- Analyzed
+- ensuring data integrity, security and accessibility for various applications and users.
+- Data Backup & Recovery
 
 &nbsp;
 
