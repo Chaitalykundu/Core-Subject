@@ -84,6 +84,8 @@ Snowflake supports multi regions across all of the snowflake supported cloud pla
 - Europe
 - Asia Pacific
 
+&nbsp;
+
 # Cloud Providers
 
 - AWS

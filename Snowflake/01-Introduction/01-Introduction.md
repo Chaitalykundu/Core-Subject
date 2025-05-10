@@ -20,7 +20,15 @@
 
 Snowflake is a **cloud data platform** for data storage and analytics purpose, that offers data warehousing, data lakes, data engineering, data science, and more.
 
+&nbsp;
+
+It runs on Amazon S3, Microsoft Azure, and the google cloud platform.
+
+Snowflake doesn't have their own infrastructure.
+
 It's designed to be more flexible, faster, and easier to use than traditional data warehouses.
+
+&nbsp;
 
 Snowflake's architecture is **built for the cloud** and **uses a new SQL database engine** instead of existing database or "big data" software platforms such as Hadoop. It's built on Amazon Web Services or Microsoft Azure cloud infrastructure.
 

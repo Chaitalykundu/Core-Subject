@@ -4,11 +4,12 @@
 - [Note](#note)
 - [Layers](#layers)
 - [Database Storage layer or Data layer](#database-storage-layer-or-data-layer)
+  - [Database Storage layer](#database-storage-layer)
     - [Key points](#key-points)
 - [Compute or Query Processing or Virtual Warehouse layer](#compute-or-query-processing-or-virtual-warehouse-layer)
-    - [Key points](#key-points-1)
+  - [Key points](#key-points-1)
 - [Services or Cloud Services layer](#services-or-cloud-services-layer)
-    - [Services managed in this layer include](#services-managed-in-this-layer-include)
+  - [Services managed in this layer include](#services-managed-in-this-layer-include)
 - [How Data Storage layer works](#how-data-storage-layer-works)
 - [How Compute layer works](#how-compute-layer-works)
 - [How Cloud Service layer works](#how-cloud-service-layer-works)
@@ -29,6 +30,8 @@ Read : <https://hevodata.com/blog/snowflake-architecture-cloud-data-warehouse/#C
 
 - Each schema belongs to a single database.
 
+Snowflake account > Database > Schema > Table / view
+
 &nbsp;
 
 &nbsp;
@@ -45,6 +48,8 @@ Snowflake’s unique architecture consists of **three** key layers:
 
 Each layer can scale independently.
 
+<img src=Snowflake-Architecture.png height="250px">
+
 &nbsp;
 
 &nbsp;
@@ -53,9 +58,23 @@ Each layer can scale independently.
 
 When data is loaded into Snowflake, Snowflake reorganizes that data into its internal optimized, compressed, columnar format. Snowflake **_stores this optimized data in cloud storage_**.
 
-Snowflake manages all aspects of **how this data is stored — the organization, file size, structure, compression, metadata, statistics, and other aspects of data storage are handled by Snowflake**.
+&nbsp;
 
-The data objects stored by Snowflake are not directly visible nor accessible by customers; they are only accessible through **SQL query** operations run using Snowflake.
+&nbsp;
+
+## Database Storage layer
+
+- Stores table data and query results
+
+- Data will be stored in columnar format
+
+- Data will be stored in micro partitions
+
+- Snowflake manages all aspects of how this data is stored i.e. the data organization, file size, structure, compression, metadata, statistics
+
+- The data objects stored by Snowflake are not directly visible nor accessible by customers; they are only accessible through **SQL query** operations run using Snowflake.
+
+- We can define cluster keys on large tables for better performance.
 
 &nbsp;
 
